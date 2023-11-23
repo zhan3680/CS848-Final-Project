@@ -2,7 +2,7 @@ import requests
 import time
 import csv
 
-S2_API_KEY = 
+S2_API_KEY =
 
 def get_data(paperId):
     rsp = requests.get('https://api.semanticscholar.org/graph/v1/paper/{}?fields=url,citations,references'.format(
