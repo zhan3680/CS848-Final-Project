@@ -1,0 +1,30 @@
+citationID,citationName,citedReferences
+5b26ecbc4f341f40de3fbf9ad907eff9cde260f4,Downlink resource allocation for NOMA-based hybrid spectrum access in cognitive network,ecb1fad89435126c9a3cdd8717a6c2aaa3947132
+89d7b5835a52b140ef4eca4467e10ecd22791633,Towards Enabling Haptic Communications over 6G: Issues and Challenges,cee877f88883a100dd99eb0f4bad0f52aaf174c7
+f69800485be0ec61d42024f4ae0757b742caac39,A Look at NOMA-Based Solutions with 5G’s TI for Smart Communities,44c20cbfa98a71255700b9a74c5e4dae4df96174
+20a2e3d0b8a9f7e45e7bb56eaac402637cac93ce,Toward immersive communications in 6G,8f058a8abba1d2f1f4b884528cf2a9addf2e8bc9$$@$$cee877f88883a100dd99eb0f4bad0f52aaf174c7
+af3e59774b372fa908342bb30acd079ccde16a21,Intelligent authentication of 5G healthcare devices: A survey,8f058a8abba1d2f1f4b884528cf2a9addf2e8bc9
+83b529da4e582db5adec4caf0bdc39f1e52eed44,Analysis of NOMA based UAV assisted short-packet communication system and blocklength minimization for IoT applications,8d44bf5ebb2db29d1195afab269a4f573744d3e9
+ad465f6288faaf1d0897a0c6e6d2f827aecc8184,NOMA-based UAV system under finite blocklength regime with analysis in Rician fading channel,8d44bf5ebb2db29d1195afab269a4f573744d3e9
+951d9caf9702ad2c82a8686dd6fd67039a7c0224,"A Survey of the Tactile Internet: Design Issues and Challenges, Applications, and Future Directions",ecb1fad89435126c9a3cdd8717a6c2aaa3947132$$@$$7da446d2b14209866a412913d0a6446077bd54c0$$@$$f4754c41d06d2897bd69f19306e33aeb3d662692$$@$$cee877f88883a100dd99eb0f4bad0f52aaf174c7
+56b2cb398fc7498194f4fce16aaeb4cf6dca433d,ETVO: Effectively Measuring Tactile Internet with Experimental Validation,7da446d2b14209866a412913d0a6446077bd54c0$$@$$f4754c41d06d2897bd69f19306e33aeb3d662692
+4454e304312e992e397f866256d6137e3c57b7d2,Throughput Prediction Using Machine Learning in LTE and 5G Networks,ecb1fad89435126c9a3cdd8717a6c2aaa3947132
+64f38b9d9c90f97e911e25293b55c50464046ef6,User Clustering and Power Allocation for Energy Efficiency Maximization in Downlink Non-Orthogonal Multiple Access Systems,53e703550cda2c9515827a0c2eef27bf9ff8f532
+e3e5e4b0960a7ecb914df2c4a387fd8b2b9f7751,Designing the Tactile Support Engine to assist time-critical applications at the edge of a 5G network,7da446d2b14209866a412913d0a6446077bd54c0
+ec1c10c87af4766daabf70b94ffc94785b902c52,Nonorthogonal Multiple Access for Next-Generation Mobile Networks: A Technical Aspect for Research Direction,53e703550cda2c9515827a0c2eef27bf9ff8f532
+af4c01ae273d8447631f500aae44aa0d650a4854,A Comprehensive Survey of the Tactile Internet: State-of-the-Art and Research Directions,8f058a8abba1d2f1f4b884528cf2a9addf2e8bc9$$@$$f4754c41d06d2897bd69f19306e33aeb3d662692$$@$$cee877f88883a100dd99eb0f4bad0f52aaf174c7$$@$$7da446d2b14209866a412913d0a6446077bd54c0
+009a307ec783009da06be8c0de95bc94e8f520a1,A New Green Prospective of Non-orthogonal Multiple Access (NOMA) for 5G,7da446d2b14209866a412913d0a6446077bd54c0
+97b7bb77b349628f36ba016a664c202a38754a5d,RAN Slicing for Massive IoT and Bursty URLLC Service Multiplexing: Analysis and Optimization,ecb1fad89435126c9a3cdd8717a6c2aaa3947132
+859fec7272393ec22b12d11ee3abdeec45e40974,RAN Slicing in a UAV Network for eMBB Service Provision,ecb1fad89435126c9a3cdd8717a6c2aaa3947132
+600619ee3495dd9222566e10a573a7636652e189,Non-Orthogonal Network Slicing for eMBB Service in a Multi-UAV-Aided Network,ecb1fad89435126c9a3cdd8717a6c2aaa3947132
+41868db9e8a7d045c8d66e10e95d3dfe31ae1400,Ultra-Reliability Connectivity with Redundant D2D Transmission Scheme for Tactile Internet,8f058a8abba1d2f1f4b884528cf2a9addf2e8bc9$$@$$7da446d2b14209866a412913d0a6446077bd54c0
+c5e85cfdf7c1c8ccc2d73142d6750314d4a18426,5G into Profinet integration as a use case for network slicing,8f058a8abba1d2f1f4b884528cf2a9addf2e8bc9
+9dca36d86d96db80c66affdc01287c1af3b48b7c,Tactile internet and its applications in 5G era: A comprehensive review,8f058a8abba1d2f1f4b884528cf2a9addf2e8bc9$$@$$f4754c41d06d2897bd69f19306e33aeb3d662692$$@$$7da446d2b14209866a412913d0a6446077bd54c0
+4bd26fe561886b99fee47569bf74dcbdb9903c51,"5G-Enabled Tactile Internet for smart cities: vision, recent developments, and challenges",7da446d2b14209866a412913d0a6446077bd54c0
+ecfa2c873ba8fd6a94e19e5215a4696c19103e3d,Tactile Internet and Its Contribution in the Development of Smart Cities,8f058a8abba1d2f1f4b884528cf2a9addf2e8bc9$$@$$f4754c41d06d2897bd69f19306e33aeb3d662692$$@$$7da446d2b14209866a412913d0a6446077bd54c0
+dd77a7808eee59510872f9787bb6f43b2c940917,DIYA: Tactile Internet Driven Delay Assessment NOMA-Based Scheme for D2D Communication,8f058a8abba1d2f1f4b884528cf2a9addf2e8bc9$$@$$c8ae2044aae38e6d60e5dacc3b44cd687abb0966$$@$$f4754c41d06d2897bd69f19306e33aeb3d662692
+0b1ac67cfc010b217c30847a17bdc497032ed3bc,"Date of publication xxxx 00, 0000, date of current version xxxx 00, 0000",7da446d2b14209866a412913d0a6446077bd54c0$$@$$f4754c41d06d2897bd69f19306e33aeb3d662692$$@$$cee877f88883a100dd99eb0f4bad0f52aaf174c7
+b7c20763f0e256397061b73c89112c50e4705353,"URLLC for 5G and Beyond: Requirements, Enabling Incumbent Technologies and Network Intelligence",8f058a8abba1d2f1f4b884528cf2a9addf2e8bc9$$@$$7da446d2b14209866a412913d0a6446077bd54c0
+c50e04439345e30d94e6cbea5ddffb164fdf8a19,"A Comprehensive Survey on Core Technologies and Services for 5G Security: Taxonomies, Issues, and Solutions",8d44bf5ebb2db29d1195afab269a4f573744d3e9$$@$$8f058a8abba1d2f1f4b884528cf2a9addf2e8bc9
+daa2586161b922ad42cbb4842ce606ecd634f9a4,Tactile Internet and the Remote Surgeon,97f2061113237627a556ac64534bea364e445dfd$$@$$7da446d2b14209866a412913d0a6446077bd54c0$$@$$f4754c41d06d2897bd69f19306e33aeb3d662692
+bbb69c03f122aade9f2bfeb7a28d612194ba106d,FOG Assisted Healthcare Architecture for Pre-Operative Support to Reduce Latency,8f058a8abba1d2f1f4b884528cf2a9addf2e8bc9$$@$$7da446d2b14209866a412913d0a6446077bd54c0

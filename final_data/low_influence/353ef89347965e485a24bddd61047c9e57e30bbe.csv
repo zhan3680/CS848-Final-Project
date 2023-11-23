@@ -1,0 +1,14 @@
+citationID,citationName,citedReferences
+46a5ca882f570db7160310f488382beba7a65f7f,Fusion of Microgrid Control With Model-Free Reinforcement Learning: Review and Vision,2b83b7f80f97192012ec324ae31e4f7487504a75
+dd2418f283e7f49d62af29f9e816b34129d3c4ab,FPGA Validated Advanced Learning-Based Voltage Control of DC/DC Converter Feeding CPL in DC Microgrid Applications,2b83b7f80f97192012ec324ae31e4f7487504a75
+8eadac033b4f3883cf6244bef89a0d91aba761f1,L2-Gain Adaptive Robust Control for Hybrid Energy Storage System in Electric Vehicles,145669e7f8134df8beb695f3e4724f704aba85bc
+f30943f649417c9e374780012171ca9623e0a5da,Scalable Designs for Reinforcement Learning-Based Wide-Area Damping Control,65c3a436a866f55f2f5e1ef5c77e7cf7d0a7adc4
+9685031f7dc34fee76ff7638e87e96d7b51fa290,Three-Phase Grid-Interactive Solar PV-Battery Microgrid Control Based on Normalized Gradient Adaptive Regularization Factor Neural Filter,73e1b30ab6ba9b06f6188ac7e0d042ca3a39fce3
+3f85df078f0226c1c3605630cf06e0c20fc6bc2b,A Distributed Task Allocation Based on a Winner-Take-All Approach for Multiple Energy Storage Systems Coordination in a Microgrid,fa55af6e3b1b6b7a766bd78846cf8f11712f520c$$@$$d4ddc590a3b7e4e1ae56a5f79a9ff5fa837a593a
+ed2bcfa4536eee4ed23d26e45e0d2a9af573567b,Deep-Reinforcement-Learning-Based Autonomous Voltage Control for Power Grid Operations,65c3a436a866f55f2f5e1ef5c77e7cf7d0a7adc4
+1c3fb14160997ca845b7727dbb4ce74cd34206df,Two-Stage WECC Composite Load Modeling: A Double Deep Q-Learning Networks Approach,65c3a436a866f55f2f5e1ef5c77e7cf7d0a7adc4
+dc326fabead3f6860f5d54e4f7f365a8b1c5bc00,Power management for hybrid AC/DC microgrid with multi-mode subgrid based on incremental costs,2b83b7f80f97192012ec324ae31e4f7487504a75
+ffaf61860ba7064d679d7181abac02557459d9ab,Dynamic power management based on model predictive control for hybrid-energy-storage-based grid-connected microgrids,ccf96ad476a16a1f7754ad34e79bec3acbc61325
+e25466ccb0662fc59d52a0adbf65ef4518052fde,"Recent Contributions, Future Prospects and Limitations of Interlinking Converter Control in Hybrid AC/DC Microgrids",ccf96ad476a16a1f7754ad34e79bec3acbc61325
+afe5072fa554af1cdac33c799dc8843d393dcc3f,Coordinated Control of PV-Ultracapacitor System for Enhanced Operation Under Variable Solar Irradiance and Short-Term Voltage Dips,73e1b30ab6ba9b06f6188ac7e0d042ca3a39fce3
+08cba03574819e34630a119522339c78e07b5674,(Deep) Reinforcement learning for electric power system control and related problems: A short review and perspectives,0837f1d6c2a1fe893d5d0c02b5d6095eeb21c405$$@$$65c3a436a866f55f2f5e1ef5c77e7cf7d0a7adc4
