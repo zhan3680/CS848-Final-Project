@@ -179,4 +179,118 @@ metadata = {
                 "num citations": 976,
                 "num references": 19,
             },
+    "8f72fcda5aecfd783bc9d104c9d440445908654c_before": {
+                "num citations": 47,
+                "num references": 42,
+    },
+    "8f72fcda5aecfd783bc9d104c9d440445908654c_after": {
+                "num citations": 67,
+                "num references": 42,
+    },
+    "09f885deb1c88867c83cccafeeeaa468f91218e0_before": {
+                "num citations": 299,
+                "num references": 37,
+    },
+    "09f885deb1c88867c83cccafeeeaa468f91218e0_after": {
+                "num citations": 5,
+                "num references": 37,
+    },
+    "11aaec241756a5c74539c4c3e4a8f40846d5a8be_before": {
+                "num citations": 333,
+                "num references": 48,
+    },
+    "11aaec241756a5c74539c4c3e4a8f40846d5a8be_after": {
+                "num citations": 4,
+                "num references": 48,
+    },
+    "74cc4e05ba11e18cb9f12f71343bd5c2f61c5ef2_before": {
+                "num citations": 156,
+                "num references": 48,
+    },
+    "74cc4e05ba11e18cb9f12f71343bd5c2f61c5ef2_after": {
+                "num citations": 7,
+                "num references": 48,
+    },
+    "488bb9cb03c4f4b729254e9b2433c4420bc2afb7_before": {
+                "num citations": 137,
+                "num references": 34,
+    },
+    "488bb9cb03c4f4b729254e9b2433c4420bc2afb7_after": {
+                "num citations": 24,
+                "num references": 34,
+    },
+    "4700ba8f87463150d4ee8c81da3afa842914a69f_before": {
+                "num citations": 177,
+                "num references": 63,
+    },
+    "4700ba8f87463150d4ee8c81da3afa842914a69f_after": {
+                "num citations": 93,
+                "num references": 63,
+    },
+    "97312dbff6883d64af1a97eb0fdbf725f34be255_before": {
+                "num citations": 172,
+                "num references": 53,
+    },
+    "97312dbff6883d64af1a97eb0fdbf725f34be255_after": {
+                "num citations": 40,
+                "num references": 53,
+    },
+    "35751010cf4b09552ed4c85b5a1367f96db2641f_before": {
+                "num citations": 266,
+                "num references": 10,
+    },
+    "35751010cf4b09552ed4c85b5a1367f96db2641f_after": {
+                "num citations": 257,
+                "num references": 10,
+    },
+    "a1f13012212ddeb18f221acfef2233c3e1309800_before": {
+                "num citations": 124,
+                "num references": 50,
+    },
+    "a1f13012212ddeb18f221acfef2233c3e1309800_after": {
+                "num citations": 20,
+                "num references": 50,
+    },
+    "a7ef5b17b8672f8e34b4f48372cd041a5fe1cb7a_before": {
+                "num citations": 179,
+                "num references": 53,
+    },
+    "a7ef5b17b8672f8e34b4f48372cd041a5fe1cb7a_after": {
+                "num citations": 0,
+                "num references": 53,
+    },
+    "bdb16b4371a6ae263832ad652d6deddee385bacb_before": {
+                "num citations": 78,
+                "num references": 27,
+    },
+    "bdb16b4371a6ae263832ad652d6deddee385bacb_after": {
+                "num citations": 59,
+                "num references": 27,
+    },
+    "d92689401ee861f27950cb7c54b68a2c72e91221_before": {
+                "num citations": 151,
+                "num references": 71,
+    },
+    "d92689401ee861f27950cb7c54b68a2c72e91221_after": {
+                "num citations": 14,
+                "num references": 71,
+    },
+    "e4c5f336cf18b3824074a7cec61315fe0c817b64_before": {
+                "num citations": 131,
+                "num references": 36,
+    },
+    "e4c5f336cf18b3824074a7cec61315fe0c817b64_after": {
+                "num citations": 6,
+                "num references": 36,
+    },
+    "e464a501d6517dab519397190808665011b8c935_before": {
+                "num citations": 95,
+                "num references": 42,
+    },
+    "e464a501d6517dab519397190808665011b8c935_after": {
+                "num citations": 14,
+                "num references": 42,
+    },
+
+
 }

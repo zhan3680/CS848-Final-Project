@@ -22,6 +22,9 @@ def sum_power_2(length: int):
 
 
 def promotion_effect_score(df, total_num_citations, total_num_references):
+    if total_num_citations == 0:
+        return 0
+
     res = 0
     for item in df['citedReferences']:
         res += sum_power_2(len(item))
@@ -154,9 +157,23 @@ def repetition(df):
         if df['citationName'][i] == df['citationName'][i - 1]:
             print(i)
 
+def repetition2(df):
+    existing = {}
+    for i in range(1, len(df['citationName'])):
+        if df['citationName'][i] not in existing:
+            existing[df['citationName'][i]] = [i+2]
+        else:
+            existing[df['citationName'][i]].append(i+2)
+
+    for title in existing:
+        if len(existing[title]) > 1:
+            print("paper name: {}".format(title))
+            for line_index in existing[title]:
+                print("  on line {}".format(line_index))
+            print("")
 
 if __name__ == '__main__':
-    df = get_data_frame("final_data/low_influence/b803a79e65dc8e377fe534ee7c14ad22f4c8f695.csv")
-    print(repetition(df))
+    df = get_data_frame("final_data/high_influence/1bb490fcd384c4bcda60cd8d1c592b266da5dbd1.csv")
+    print(repetition2(df))
 
     # citation_pattern_graph("final_data/high_influence/backup", "high")
