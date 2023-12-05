@@ -61,6 +61,8 @@ def promotion_effect_dispersion(df, total_num_references):
     #                       paper_promotion.keys()]
     promotion_received = [paper_promotion[paper][0] / total_num_references for paper in paper_promotion.keys()]
 
+    if len(promotion_received) == 0:
+        return 0
     return statistics.pstdev(promotion_received)
 
 
