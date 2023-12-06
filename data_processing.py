@@ -156,7 +156,7 @@ def repetition(df):
 
 
 if __name__ == '__main__':
-    df = get_data_frame("final_data/low_influence/b803a79e65dc8e377fe534ee7c14ad22f4c8f695.csv")
+    df = get_data_frame("final_data_retracted/after_retraction/8f72fcda5aecfd783bc9d104c9d440445908654c.csv`")
     print(repetition(df))
 
     # citation_pattern_graph("final_data/high_influence/backup", "high")
