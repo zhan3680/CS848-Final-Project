@@ -123,7 +123,7 @@ def plot_two_groups(group1, group2, metric):
     plt.xticks([1,2], labels)
     plt.xlabel("groups")
     plt.ylabel(metric)
-    plt.title("{} distribution violin plot".format(metric))
+    plt.title("{} distribution box plot".format(metric))
 
     # plt.show()
     plt.savefig("{}-{}-{}".format(labels[0], labels[1], '_'.join(metric.split(' '))))
