@@ -1,0 +1,25 @@
+citationID,citationName,citedReferences
+47fdce2b3b27819d61525247bc3de34f2d157983,MiniSeg: An Extremely Minimum Network for Efficient COVID-19 Segmentation,754eef845a1fd33405661e9de4e985f020ea949a$$@$$00a407540a8bdd6d7425bd8a561eb21d69682511
+20d755b36c257229a469c6a903ca381e070aab19,Diagnosis and Prediction Model for COVID19 Patients Response to Treatment based on Convolutional Neural Networks and Whale Optimization Algorithm Using CT Images,754eef845a1fd33405661e9de4e985f020ea949a
+43c8f3f509cdec768d3bbaae3c7f2b85dae2cc08,Performance Evaluation of the NASNet Convolutional Network in the Automatic Identification of COVID-19,754eef845a1fd33405661e9de4e985f020ea949a$$@$$00a407540a8bdd6d7425bd8a561eb21d69682511
+82fffaf015c94249813a0905480cd7f079346489,Machine Learning Analysis of Chest CT Scan Images as a Complementary Digital Test of Coronavirus (COVID-19) Patients,754eef845a1fd33405661e9de4e985f020ea949a
+3600545236d4def5913e3462aef3df8858f81f3f,A modified deep convolutional neural network for detecting COVID-19 and pneumonia from chest X-ray images based on the concatenation of Xception and ResNet50V2,00a407540a8bdd6d7425bd8a561eb21d69682511
+5dc2a2b45f53f6dab91657b8fd658ee8e406a462,A New Modified Deep Convolutional Neural Network for Detecting COVID-19 from X-ray Images,00a407540a8bdd6d7425bd8a561eb21d69682511
+c87263c070e45a7e0957814073f94d3dee040113,Improving Coronavirus (COVID-19) Diagnosis using Deep Transfer Learning,00a407540a8bdd6d7425bd8a561eb21d69682511
+bc1edd72df527404508d48292ecfa6e0137ae333,Sample-Efficient Deep Learning for COVID-19 Diagnosis Based on CT Scans,00a407540a8bdd6d7425bd8a561eb21d69682511
+7fff71ea425413f203662c57d4f8c878813e3db0,Radiologist-Level COVID-19 Detection Using CT Scans with Detail-Oriented Capsule Networks,fc60032a3f2ad65ffbdbd9088bc7059a4deb24e1$$@$$754eef845a1fd33405661e9de4e985f020ea949a$$@$$00a407540a8bdd6d7425bd8a561eb21d69682511$$@$$c9e6f9830966d35e607b337db8a55bfb59a37901
+7cdbc51293f7d7ed78ec84a1cfbf84b1bad5a852,Computer Vision for COVID-19 Control: A Survey,fc60032a3f2ad65ffbdbd9088bc7059a4deb24e1$$@$$754eef845a1fd33405661e9de4e985f020ea949a$$@$$00a407540a8bdd6d7425bd8a561eb21d69682511
+1df83e4dc0ab34d77179962e156b7bd1a65f0e0d,Blockchain and AI-Based Solutions to Combat Coronavirus (COVID-19)-Like Epidemics: A Survey,00a407540a8bdd6d7425bd8a561eb21d69682511
+b5c5ded36c7f99fd906d082be7172d6cde36e9ea,COVID_MTNet: COVID-19 Detection with Multi-Task Deep Learning Approaches,00a407540a8bdd6d7425bd8a561eb21d69682511$$@$$c9e6f9830966d35e607b337db8a55bfb59a37901
+4e95ce827049a350819c5c87caf992f27f9ff792,"Review of Artificial Intelligence Techniques in Imaging Data Acquisition, Segmentation, and Diagnosis for COVID-19",754eef845a1fd33405661e9de4e985f020ea949a$$@$$00a407540a8bdd6d7425bd8a561eb21d69682511
+9b8eaad6e6ebf2b480067ce3d923a0344f64e7c6,COVID-CAPS: A capsule network-based framework for identification of COVID-19 cases from X-ray images,00a407540a8bdd6d7425bd8a561eb21d69682511
+049ea432acc08b04a3e21c390f62be3d845a2e2c,COVID-ResNet: A Deep Learning Framework for Screening of COVID19 from Radiographs,754eef845a1fd33405661e9de4e985f020ea949a$$@$$00a407540a8bdd6d7425bd8a561eb21d69682511
+7cc44884667e9771d11491c142df90e091d3d4a7,COVID-CT-Dataset: A CT Scan Dataset about COVID-19,00a407540a8bdd6d7425bd8a561eb21d69682511
+9954ec0a95fc0840f7712d7b0c67b242bb536a9e,A fully automatic deep learning system for COVID-19 diagnostic and prognostic analysis,fc60032a3f2ad65ffbdbd9088bc7059a4deb24e1$$@$$754eef845a1fd33405661e9de4e985f020ea949a
+3017663daf20f71c3a17637f041de6c5c3507745,Mapping the Landscape of Artificial Intelligence Applications against COVID-19,fc60032a3f2ad65ffbdbd9088bc7059a4deb24e1$$@$$754eef845a1fd33405661e9de4e985f020ea949a$$@$$00a407540a8bdd6d7425bd8a561eb21d69682511
+cbda9e8b4aad503ef7057e52f93e9869f4c4cf52,Automatic detection of coronavirus disease (COVID-19) using X-ray images and deep convolutional neural networks,754eef845a1fd33405661e9de4e985f020ea949a$$@$$00a407540a8bdd6d7425bd8a561eb21d69682511
+359a90b0ec779228cc781e401a2933476bab8cbd,AI-assisted CT imaging analysis for COVID-19 screening: Building and deploying a medical AI system,754eef845a1fd33405661e9de4e985f020ea949a$$@$$00a407540a8bdd6d7425bd8a561eb21d69682511$$@$$c9e6f9830966d35e607b337db8a55bfb59a37901
+c8bb4de72eb02d40b902f3b47cd7e65ee44e643d,Large-Scale Screening of COVID-19 from Community Acquired Pneumonia using Infection Size-Aware Classification,c9e6f9830966d35e607b337db8a55bfb59a37901
+235b9812305cff3df849394ac7b70a2c04a4685c,COVID-Net: a tailored deep convolutional neural network design for detection of COVID-19 cases from chest X-ray images,fc60032a3f2ad65ffbdbd9088bc7059a4deb24e1$$@$$754eef845a1fd33405661e9de4e985f020ea949a$$@$$00a407540a8bdd6d7425bd8a561eb21d69682511$$@$$c9e6f9830966d35e607b337db8a55bfb59a37901
+4087bebbb060ea165ba6ded466689dea5b301f44,Conclusions,754eef845a1fd33405661e9de4e985f020ea949a$$@$$00a407540a8bdd6d7425bd8a561eb21d69682511
+2d70c61c2c76de722a5dc86cc868bd0f6ff0692a,ANALYSIS OF EFFICIENT PREDICTION OF COVID19 USING DEEP LEARNING,00a407540a8bdd6d7425bd8a561eb21d69682511

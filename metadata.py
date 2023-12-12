@@ -179,6 +179,22 @@ metadata = {
                 "num citations": 976,
                 "num references": 19,
             },
+    "b268e607bd3a2a684b047da4f929f1b9ee7f72b2": {
+                "num citations": 106,
+                "num references": 18,
+            },
+    "cbcd3af88e1f380765b586a0b83eab9e5943cbc7": {
+                "num citations": 79,
+                "num references": 21,
+            },
+    "0279ae8bec4adc6c145b4c9c3705a0f48ac87604": {
+                "num citations": 95,
+                "num references": 18,
+            },
+    "946eb33942e2c89287edf9bf1e7946e1309d4367": {
+                "num citations": 101,
+                "num references": 12,
+            },
     "8f72fcda5aecfd783bc9d104c9d440445908654c_before": {
                 "num citations": 47,
                 "num references": 42,
@@ -196,11 +212,11 @@ metadata = {
                 "num references": 37,
     },
     "11aaec241756a5c74539c4c3e4a8f40846d5a8be_before": {
-                "num citations": 333,
+                "num citations": 330,
                 "num references": 48,
     },
     "11aaec241756a5c74539c4c3e4a8f40846d5a8be_after": {
-                "num citations": 4,
+                "num citations": 8,
                 "num references": 48,
     },
     "74cc4e05ba11e18cb9f12f71343bd5c2f61c5ef2_before": {
@@ -220,11 +236,11 @@ metadata = {
                 "num references": 34,
     },
     "4700ba8f87463150d4ee8c81da3afa842914a69f_before": {
-                "num citations": 177,
+                "num citations": 174,
                 "num references": 63,
     },
     "4700ba8f87463150d4ee8c81da3afa842914a69f_after": {
-                "num citations": 93,
+                "num citations": 96,
                 "num references": 63,
     },
     "97312dbff6883d64af1a97eb0fdbf725f34be255_before": {
@@ -236,19 +252,19 @@ metadata = {
                 "num references": 53,
     },
     "35751010cf4b09552ed4c85b5a1367f96db2641f_before": {
-                "num citations": 266,
+                "num citations": 35,
                 "num references": 10,
     },
     "35751010cf4b09552ed4c85b5a1367f96db2641f_after": {
-                "num citations": 257,
+                "num citations": 489,
                 "num references": 10,
     },
     "a1f13012212ddeb18f221acfef2233c3e1309800_before": {
-                "num citations": 124,
+                "num citations": 125,
                 "num references": 50,
     },
     "a1f13012212ddeb18f221acfef2233c3e1309800_after": {
-                "num citations": 20,
+                "num citations": 21,
                 "num references": 50,
     },
     "a7ef5b17b8672f8e34b4f48372cd041a5fe1cb7a_before": {
@@ -272,7 +288,7 @@ metadata = {
                 "num references": 71,
     },
     "d92689401ee861f27950cb7c54b68a2c72e91221_after": {
-                "num citations": 14,
+                "num citations": 16,
                 "num references": 71,
     },
     "e4c5f336cf18b3824074a7cec61315fe0c817b64_before": {
@@ -291,6 +307,44 @@ metadata = {
                 "num citations": 14,
                 "num references": 42,
     },
-
-
+    "9073ac250f467b926dd86ce70e07bfdc9309581e_before": {
+        "num citations": 905,
+        "num references": 31,
+    },
+    "9073ac250f467b926dd86ce70e07bfdc9309581e_after": {
+        "num citations": 95,
+        "num references": 31,
+    },
+    "605ba69df3b093e949539af906bad80d30622a5c_before": {
+        "num citations": 27,
+        "num references": 24,
+    },
+    "605ba69df3b093e949539af906bad80d30622a5c_after": {
+        "num citations": 33,
+        "num references": 24,
+    },
+    "f4ab5800d3939aa3172ca0bbe457198039e1adb6_before": {
+        "num citations": 82,
+        "num references": 40,
+    },
+    "f4ab5800d3939aa3172ca0bbe457198039e1adb6_after": {
+        "num citations": 12,
+        "num references": 40,
+    },
+    "fa1789a23f4d246d8372c5ccdf866772d36e320c_before": {
+        "num citations": 44,
+        "num references": 20,
+    },
+    "fa1789a23f4d246d8372c5ccdf866772d36e320c_after": {
+        "num citations": 16,
+        "num references": 20,
+    },
+    "d0d580496578f57431d73f5bf149e99bd7158b4d_before": {
+        "num citations": 12,
+        "num references": 23,
+    },
+    "d0d580496578f57431d73f5bf149e99bd7158b4d_after": {
+        "num citations": 3,
+        "num references": 23,
+    },
 }
