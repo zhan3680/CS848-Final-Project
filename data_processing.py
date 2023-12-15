@@ -175,7 +175,10 @@ def repetition2(df):
             print("")
 
 if __name__ == '__main__':
-    df = get_data_frame("final_data/high_influence/1bb490fcd384c4bcda60cd8d1c592b266da5dbd1.csv")
-    print(repetition2(df))
+    # df = get_data_frame("final_data/high_influence/1bb490fcd384c4bcda60cd8d1c592b266da5dbd1.csv")
+    # print(repetition2(df))
 
     # citation_pattern_graph("final_data/high_influence/backup", "high")
+
+    df = promotion_effect_score_group("final_data_retracted/after_retraction")
+    print(df)
