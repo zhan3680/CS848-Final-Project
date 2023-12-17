@@ -179,6 +179,22 @@ metadata = {
         "num citations": 976,
         "num references": 19,
     },
+    "b268e607bd3a2a684b047da4f929f1b9ee7f72b2": {
+        "num citations": 106,
+        "num references": 18,
+    },
+    "cbcd3af88e1f380765b586a0b83eab9e5943cbc7": {
+        "num citations": 79,
+        "num references": 21,
+    },
+    "0279ae8bec4adc6c145b4c9c3705a0f48ac87604": {
+        "num citations": 95,
+        "num references": 18,
+    },
+    "946eb33942e2c89287edf9bf1e7946e1309d4367": {
+        "num citations": 101,
+        "num references": 12,
+    },
     "8f72fcda5aecfd783bc9d104c9d440445908654c_before": {
         "num citations": 47,
         "num references": 42,
@@ -290,13 +306,5 @@ metadata = {
     "e464a501d6517dab519397190808665011b8c935_after": {
         "num citations": 14,
         "num references": 42,
-    },
-    "ad6feba017433e098ceda3ca30af6975ecaa2bd6_before": {
-        "num citations": 125,
-        "num references": 52,
-    },
-    "ad6feba017433e098ceda3ca30af6975ecaa2bd6_after": {
-        "num citations": 14,
-        "num references": 52,
     },
 }
