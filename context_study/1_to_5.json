@@ -1,0 +1,172 @@
+{
+  "1": {
+    "original": {
+      "paperID": "56ae80a803611cea96c8ecc9f06816964dca9b57",
+      "paperName": "Multicriteria fuzzy decision-making problems based on vague set theory"
+    },
+    "citation": {
+      "paperID": "edea7c67ca3328a4e7253ba3d7e63834e411dec0",
+      "paperName": "A Comparative Study of Two Novel Approaches to the Rule-Base Evidential Reasoning"
+    },
+    "context match": "0/1",
+    "common references": {
+      "r1": {
+        "paperID": "048ee743c1ff23787b1df6d112b87c075b8232ea",
+        "paperName": "Handling multicriteria fuzzy decision-making problems based on vague set theory",
+        "original citing context": "Recently, Chen et al. [5] presented some new techniques for handling multicriteria fuzzy decision-making\nproblems based on vague set theory, where the characteristics of the alternatives are presented by vague sets.",
+        "citation citing context": "An important problem is the comparison of IFVs. Therefore, the specific methods which are rather of heuristic nature were developed to compare IFVs. For this purpose, Chen and Tan [5] proposed to use the so-called score function (or net membership)",
+        "match or not": false
+      }
+    }
+  },
+  "2": {
+    "original": {
+      "paperID": "7c6fb8b3deaa75f94f9c185eac4cae3f2d0bf574",
+      "paperName": "Hybrid recursive regularized thermal lattice Boltzmann model for high subsonic compressible flows"
+    },
+    "citation": {
+      "paperID": "5f045548daa5e8568e7ea1065799b641d275b264",
+      "paperName": "Benchmarking a lattice-Boltzmann solver for reactive flows: Is the method worth the effort for combustion?"
+    },
+    "context match": "1/2",
+    "common references": {
+      "r1": {
+        "paperID": "e8a82919e5af9af98bf102ca8753233f3bb314e7",
+        "paperName": "A Lattice-Boltzmann model for low-Mach reactive flows",
+        "original citing context": "could be generally extended to compressible flows by considering the effects of turbulent\nfluctuations have a striking resemblance to those of microscale (thermal) fluctuations in laminar flows",
+        "citation citing context": "We showed that our hybrid lattice-Boltzmann method is competitive for the simulation of multi-species reacting flows.",
+        "match or not": false
+      },
+      "r2": {
+        "paperID": "630ddd4741ba659b53d3ab2bfe16279c7ff702bf",
+        "paperName": "Comparison between lattice Boltzmann method and Navier-Stokes high order schemes for computational aeroacoustics",
+        "original citing context": "Due to its intrinsic low dissipation, high fidelity and simplicity compared with the conventional finite volume/difference\napproach [37,38], it is natural to seek a stable and efficient LB model able to simulate fully compressible flows on standard\nlattices.",
+        "citation citing context": "The order of accuracy of the method is nonetheless subject to caution, as LBM and\nclassical solvers are known to exhibit different dissipation\nproperties",
+        "match or not": true
+      }
+    }
+  },
+  "3": {
+    "original": {
+      "paperID": "e2b99083f3b88691af5553b2a715c1fe43e59246",
+      "paperName": "Efficient Image Dehazing with Boundary Constraint and Contextual Regularization"
+    },
+    "citation": {
+      "paperID": "92c469b9eb43a0482c989ea4053ceaa2ad319787",
+      "paperName": "A Comprehensive Review on Analysis and Implementation of Recent Image Dehazing Methods"
+    },
+    "context match": "1/3",
+    "common references": {
+      "r1": {
+        "paperID": "cc1df05421605eddff9be800af763014b2ceeba5",
+        "paperName": "Improved visibility of road scene images under heterogeneous fog",
+        "original citing context": "shows the comparisons of our approach with\nTarel et al.’s method [14], [15] and Fattal’s method [4].\nTarel et al.’s method is a filtering based approach. ",
+        "citation citing context": "image enhancement operations are utilized in estimation of transmission or airlight. Hence, they may fall in methods of other categories too, such as restoration or fusion-based. Both sub-categories use various image enhancement techniques, including, ..., white balance method",
+        "match or not": false
+      },
+      "r2": {
+        "paperID": "ce63b2f855e43ff7d0d3e814bcc5309c7ee4ac37",
+        "paperName": "Vision and the Atmosphere",
+        "original citing context": "Early methods for haze removal mainly rely on additional\ndepth information or multiple observations of the same\nscene. Representative works include [11], [9], [10], [12].\nSchechner et al. [11] notice that the airlight scattered by\natmospheric particles is partially polarized. ",
+        "citation citing context": "The physical model is given as follows [2]:\nIc (x)=Jc T(x)+Ac(1−T(x))\nhazy haze−free r t r (1)\nwhere c ∈ {r, g, b} is the color channel, Ic is the captured hazy\nhazy image, Jc is the haze-free image, Ac is the atmos- haze−free t\npheric light, Tr is the transmission medium, and x is a pixel position. The transmission describes the portion of light, directly reaching the camera without scattering.",
+        "match or not": true
+      },
+      "r3": {
+        "paperID": "7098bce6979dc00502f738746c7a6927a3c763d4",
+        "paperName": "Fast visibility restoration from a single color or gray level image",
+        "original citing context": "Recently, some significant advances have also\nbeen achieved [4], [13], [5], [14], [7], [8]. These progresses\nbenefit much from the insightful explorations on new image\nmodels and priors.",
+        "citation citing context": "image enhancement operations are utilized in estimation of transmission or airlight. Hence, they may fall in methods of other categories too, such as restoration or fusion-based. Both sub-categories use various image enhancement techniques, including, ..., median filtering",
+        "match or not": false
+      }
+    }
+  },
+  "4": {
+    "original": {
+      "paperID": "2b9b167c496281b574b6b73bea83b114eeaa6a10",
+      "paperName": "Cloudlet Placement and Task Allocation in Mobile Edge Computing"
+    },
+    "citation": {
+      "paperID": "5ffbe3a173f161eb252f1c45d6bc9d522af29e3d",
+      "paperName": "An Online Adjustment Based Node Placement Mechanism for the NFV-enabled MEC Network"
+    },
+    "context match": "3/4",
+    "common references": {
+      "r1": {
+        "paperID": "afd9dadac8d3354615e26b2038887ecdbc9e33e5",
+        "paperName": "Mobile Edge Computing: A Survey on Architecture and Computation Offloading",
+        "original citing context": "A comprehensive and detailed survey about MEC can be\nfound in [9]–[11",
+        "citation citing context": "In order to provide better support for future mobile applications and provide users with lower latency and better services, Multi-access Edge Computing (MEC) came into being [1]",
+        "match or not": true
+      },
+      "r2": {
+        "paperID": "71b18b8bd37b0dcc7f732206a1bbffe0862f6f06",
+        "paperName": "Cost Aware cloudlet Placement for big data processing at the edge",
+        "original citing context": "In [22], it is assumed that when\na cloudlet is deployed at a BS, a certain cost will be consumed.",
+        "citation citing context": "due to the dynamic changes of network states and the limitation of operating cost, how to deploy MEC nodes is still an urgent issue to be addressed [11].",
+        "match or not": false
+      },
+      "r3": {
+        "paperID": "a25b8b0db0a95d82e708dd1069f93555d43a8adf",
+        "paperName": "Optimal Placement of Cloudlets for Access Delay Minimization in SDN-Based Internet of Things Networks",
+        "original citing context": "In [17], it is defined that the average cloudlet access\ndelay as the whole average service time (an M/M/1 queue for\neach AP is assumed), and the cloudlet processing time as well\nas flow traversing time are not considered, which is not very\npractical. Zhao et al. [17] proposed a ranking-based heuristic to deploy K cloudlets to minimize the average cloudlet\naccess delay.",
+        "citation citing context": "The traditional MEC node placement strategy is to place resource- rich servers at access points in a network. The authors in [4] and [5] study the cloudlet placement problem to minimize the average access delay. ",
+        "match or not": true
+      },
+      "r4": {
+        "paperID": "1b76c259fdf9150cc72b5be0db0d255c984e2fc9",
+        "paperName": "Optimal Cloudlet Placement and User to Cloudlet Allocation in Wireless Metropolitan Area Networks",
+        "original citing context": "Jia et al. [14] studied how to place K cloudlets and allocate user to cloudlets in wireless metropolitan area networks (WMAN) such that the average system response time is minimized. In [14], the cloudlets are modeled as an M/M/c queue\nand the requested tasks of users arrive according to the Poisson\nprocess. They [14] further propose a density-based clustering (DBC) algorithm to solve this problem",
+        "citation citing context": "The authors in [4] and [5] study the cloudlet placement problem to minimize the average access delay.",
+        "match or not": true
+      }
+    }
+  },
+  "5": {
+    "original": {
+      "paperID": "3617ccfec4bed2d8ac15d0ad1a35b589d9b270cb",
+      "paperName": "Large Kernel Matters — Improve Semantic Segmentation by Global Convolutional Network"
+    },
+    "citation": {
+      "paperID": "66813622c3fada24db784f5a9c1428d604182a68",
+      "paperName": "A 3-D Atrous Convolution Neural Network for Hyperspectral Image Denoising"
+    },
+    "context match": "3/5",
+    "common references": {
+      "r1": {
+        "paperID": "23ffaa0fe06eae05817f527a47ac3291077f9e58",
+        "paperName": "Rethinking the Inception Architecture for Computer Vision",
+        "original citing context": "Different from the separable\nkernels used by [32], we do not use any nonlinearity after\nconvolution layers",
+        "citation citing context": "Unlike Inception modules and global\nconvolutional network used by [49] and [50], the multibranch\nmodule combines 3-D separable kernel with atrous convolution and varies in three dimensions",
+        "match or not": true
+      },
+      "r2": {
+        "paperID": "cab372bc3824780cce20d9dd1c22d4df39ed081a",
+        "paperName": "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+        "original citing context": "Deeplab-\nV2 [7] uses the Atrous Spatial Pyramid Pooling, which is a\ncombination of convolutions, to embed the context directly\nfrom feature map",
+        "citation citing context": "The networks in [39] and [40] employ atrous convolution instead\nof a down-sampling-based pooling layer, which not only\navoids resolution reduction, but also covers the large-scale\nreceptive field.",
+        "match or not": false
+      },
+      "r3": {
+        "paperID": "6fc6803df5f9ae505cae5b2f178ade4062c768d0",
+        "paperName": "Fully convolutional networks for semantic segmentation",
+        "original citing context": "The FCN [25]-like structure\nis employed as our basic framework and our GCN is used\nto generate semantic score maps",
+        "citation citing context": "In our model, a fully convolutional network [44] is used\nto ensure the pixel-level output without using fully connected\nlayers and pooling layers.",
+        "match or not": true
+      },
+      "r4": {
+        "paperID": "2173f1b8172c9b5bed4650c81b69988717bd6df6",
+        "paperName": "ParseNet: Looking Wider to See Better",
+        "original citing context": "while ParseNet [23]\nadds a global pooling branch to extract context information.",
+        "citation citing context": "Global average pooling is a good\nmethod to describe the global contextual information, which\nis commonly employed in image classification and semantic\nsegmentation models [51].",
+        "match or not": true
+      },
+      "r5": {
+        "paperID": "7f5fc84819c0cf94b771fe15141f65b123f7b8ec",
+        "paperName": "Multi-Scale Context Aggregation by Dilated Convolutions",
+        "original citing context": "Further, Dilated-Net [36] appends several layers after the\nscore map to embed the multi-scale context, and ...",
+        "citation citing context": "The networks in [39] and [40] employ atrous convolution instead\nof a down-sampling-based pooling layer, which not only\navoids resolution reduction, but also covers the large-scale\nreceptive field.",
+        "match or not": false
+      }
+    }
+  }
+}
