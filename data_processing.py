@@ -279,11 +279,11 @@ if __name__ == '__main__':
     # print(df)
     # print(deduplicate(df).to_string())
 
-    # df = get_data_frame("final_data/high_influence/1bb490fcd384c4bcda60cd8d1c592b266da5dbd1.csv")
-    # repetition2(df)
+    # # df = get_data_frame("final_data/high_influence/1bb490fcd384c4bcda60cd8d1c592b266da5dbd1.csv")
+    # # repetition2(df)
     # print(df.to_string())
 
     # statistical_test_two_groups("final_data_retracted/before_retraction", "final_data_retracted/after_retraction", "promotion dispersion")
     # print(promotion_effect_score_group("final_data/high_influence"))
 
-    find_target_citations("final_data", 17)
+    find_target_citations("final_data", 21)
