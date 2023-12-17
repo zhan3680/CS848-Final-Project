@@ -1,0 +1,2655 @@
+{
+  "21": {
+    "original": {
+      "paperID": "125246099c1a21469af6735480bae2c426c31cd5",
+      "paperName": "Low Dose CT Image Denoising Using a Generative Adversarial Network with Wasserstein Distance and Perceptual Loss"
+    },
+    "citation": {
+      "paperID": "7e9247bfed98310565660113c6571a4c981c1f19",
+      "paperName": "Single Low-Dose CT Image Denoising Using a Generative Adversarial Network With Modified\nU-Net Generator and Multi-Level Discriminator"
+    },
+    "context match": "19/21",
+    "common references": {
+      "r1": {
+        "paperID": "5bc52b33c3a0555025c9bc1a71eb533cd2702bbc",
+        "paperName": "A deep convolutional neural network using directional wavelets for low‐dose X‐ray CT reconstruction",
+        "original citing context": "Then, more complex networks were proposed to handle the LDCT denoising problem such as the wavelet network",
+        "citation citing context": "Kang et al. proposed a wavelet network by combining a deep CNN with a directional wavelet approach",
+        "match or not": true
+      },
+      "r2": {
+        "paperID": "c482dae49ed39461230458f7f481ac409cdbb4a4",
+        "paperName": "Block matching 3D random noise filtering for absorption optical projection tomography",
+        "original citing context": "The block-matching 3D (BM3D) algorithm was used for image restoration in several CT imaging tasks",
+        "citation citing context": "The block-matching 3D (BM3D) algorithm grouped similar 2D CT image patches into 3D arrays, applied 3D transform and filtered the corresponding coefficients so as to remove noise in various image denoising tasks efficiently",
+        "match or not": true
+      },
+      "r3": {
+        "paperID": "944900588fa447e89db47c3c314ecf98cd3fe537",
+        "paperName": "Image denoising of low-radiation dose coronary CT angiography by an adaptive block-matching 3D algorithm",
+        "original citing context": "The block-matching 3D (BM3D) algorithm was used for image restoration in several CT imaging tasks",
+        "citation citing context": "The block-matching 3D (BM3D) algorithm grouped similar 2D CT image patches into 3D arrays, applied 3D transform and filtered the corresponding coefficients so as to remove noise in various image denoising tasks efficiently",
+        "match or not": true
+      },
+      "r4": {
+        "paperID": "eb42cf88027de515750f230b23b1a057dc782108",
+        "paperName": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+        "original citing context": "pretrained VGG-19 network",
+        "citation citing context": " pre-trained VGG-19 network",
+        "match or not": true
+      },
+      "r5": {
+        "paperID": "76248a0aa39ba510ac4ba0d1354e63958fc3ee1a",
+        "paperName": "Sinogram noise reduction for low-dose CT by statistics-based nonlinear filters",
+        "original citing context": "previous work to design better image reconstruction or image processing methods for low-dose CT (LDCT):  sinogram filtration before reconstruction",
+        "citation citing context": "previous work to remove noise and improve the quality of low-dose CT (LDCT) images:  sinogram domain filtering",
+        "match or not": true
+      },
+      "r6": {
+        "paperID": "603bb905322c80725dab75b4343a78325c662d66",
+        "paperName": "Low-Dose CT With a Residual Encoder-Decoder Convolutional Neural Network",
+        "original citing context": "RED-CNN",
+        "citation citing context": "RED-CNN",
+        "match or not": true
+      },
+      "r7": {
+        "paperID": "f5def96246b83e4bdfb3f21668f0038715732a02",
+        "paperName": "Projection space denoising with bilateral filtering and CT noise modeling for dose reduction in CT",
+        "original citing context": "sinogram filtration before reconstruction",
+        "citation citing context": "sinogram domain filtering: bilateral filtering",
+        "match or not": true
+      },
+      "r8": {
+        "paperID": "054ac52756fa157d909460cc1dcb0451c097cea5",
+        "paperName": "Low-dose computed tomography image restoration using previous normal-dose scan",
+        "original citing context": "previous work to design better image reconstruction or image processing methods for low-dose CT (LDCT): image post processing after reconstruction; non-local means (NLM) for CT image denoising",
+        "citation citing context": "previous work to remove noise and improve the quality of low-dose CT (LDCT) images: image processing; non-local means (NLM) for CT image denoising",
+        "match or not": true
+      },
+      "r9": {
+        "paperID": "6f3f320b1cccf0b80216ae62b3ca9efe484767ca",
+        "paperName": "A Splitting-Based Iterative Algorithm for Accelerated Statistical X-Ray CT Reconstruction",
+        "original citing context": "statistical noise model",
+        "citation citing context": "statistical noise model",
+        "match or not": true
+      },
+      "r10": {
+        "paperID": "a4c644e5cc0b1795c496211410635dda0e59cbcf",
+        "paperName": "Computed tomography--an increasing source of radiation exposure",
+        "original citing context": "there is a potential radiation risk to the\npatient, since x-rays could cause genetic damage and induce\ncancer in a probability related to the radiation dose",
+        "citation citing context": "the potential risk of\ngenetic damages or cancers caused by patients’ exposure to\nradiations",
+        "match or not": true
+      },
+      "r11": {
+        "paperID": "af292df40e93114f32a2584478841ccb2aea81f6",
+        "paperName": "",
+        "original citing context": "dictionary learning",
+        "citation citing context": "dictionary learning",
+        "match or not": true
+      },
+      "r12": {
+        "paperID": "915c4bb289b3642489e904c65a47fa56efb60658",
+        "paperName": "Perceptual Losses for Real-Time Style Transfer and Super-Resolution",
+        "original citing context": "As an algorithm tries to minimize per-pixel\nMSE, it overlooks subtle image textures/signatures critical for\nhuman perception",
+        "citation citing context": "using mean squared error (MSE) as loss function would overlook subtle image features critical for human\nperception",
+        "match or not": true
+      },
+      "r13???": {
+        "paperID": "df0c54fe61f0ffb9f0e36a17c2038d9a1964cba3",
+        "paperName": "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network",
+        "original citing context": "a perceptual loss that computes the difference between images\nin an established feature space",
+        "citation citing context": "The using\nof perceptual loss can solve the situation that two images\ncan look the same to human beings but be quite different\nmathematically",
+        "match or not": true
+      },"r14": {
+        "paperID": "5c2e52162e54abcc142943de54cd739a527fc562",
+        "paperName": "Risk of cancer from diagnostic xrays: estimates for the UK and 14 other countries",
+        "original citing context": "there is a potential radiation risk to the\npatient, since x-rays could cause genetic damage and induce\ncancer in a probability related to the radiation dose",
+        "citation citing context": "the potential risk of\ngenetic damages or cancers caused by patients’ exposure to\nradiations",
+        "match or not": true
+      },"r15": {
+        "paperID": "edf73ab12595c6709f646f542a0d2b33eb20a3f4",
+        "paperName": "Improved Training of Wasserstein GANs",
+        "original citing context": "improved WGAN with gradient penalty was proposed [41]\nto accelerate the convergence; how it works",
+        "citation citing context": "Wasserstein distance was useful for stabilizing the\nGAN training but not good enough for improving the image\nquality",
+        "match or not": false
+      },"r16": {
+        "paperID": "11a8dcaec7a7751a9e240440267c5773fc7faefa",
+        "paperName": "Generative Adversarial Networks for Noise Reduction in Low-Dose CT",
+        "original citing context": "GAN network for cardiac CT\nimage denoising",
+        "citation citing context": "use GAN for image\nnoise removal, more specifically for LDCT restoration",
+        "match or not": true
+      },"r17": {
+        "paperID": "6364fdaa0a0eccd823a779fcdd489173f938e91a",
+        "paperName": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+        "original citing context": "the U-net",
+        "citation citing context": "the U-net",
+        "match or not": true
+      },"r18": {
+        "paperID": "ef6abdcbd0871cb356e8669b6cdb31ed8b013cc2",
+        "paperName": "Medical Image Synthesis with Context-Aware Generative Adversarial Networks",
+        "original citing context": "Nie et al. proposed to use GAN to estimate\nCT image from its corresponding MR image",
+        "citation citing context": "Nie et al. employed a 3D fully\nconvolutional network (FCN) together with residual connection as the generator and utilized an additional image gradient\ndifference term in the loss function",
+        "match or not": false
+      },"r19": {
+        "paperID": "ba99b10cb9559f1e1194f572e5586c22902fb4b6",
+        "paperName": "Improving abdomen tumor low-dose CT images using a fast dictionary learning based processing",
+        "original citing context": "an adapted K-SVD method was proposed to reduce artifacts in CT images",
+        "citation citing context": "Chen et al. [12] proposed to adapt a patch-based K-SVD algorithm to\nsuppress mottled noise and streak artifacts in abdomen CT\nimages",
+        "match or not": true
+      },"r20": {
+        "paperID": "c6dc80c832d6760f8a5d6a01678474e534c0258b",
+        "paperName": "Penalized weighted least-squares approach to sinogram noise reduction and image reconstruction for low-dose X-ray computed tomography",
+        "original citing context": "sinogram filtration before reconstruction",
+        "citation citing context": "sinogram domain filtering",
+        "match or not": true
+      },"r21": {
+        "paperID": "51af00e1f5ffa81a863206a39fee0e61387204ad",
+        "paperName": "Iterative reconstruction methods in X-ray CT",
+        "original citing context": "previous work to design better image reconstruction or image processing methods for low-dose CT (LDCT):  iterative reconstruction",
+        "citation citing context": "previous work to remove noise and improve the quality of low-dose CT (LDCT) images:  iterative reconstruction",
+        "match or not": true
+      }
+    }
+  },
+  "22": {
+    "original": {
+      "paperID": "75ccdee8fe4234edb2a126da84acd58b1e3eee91",
+      "paperName": "Equilibrium optimizer: A novel optimization algorithm"
+    },
+    "citation": {
+      "paperID": "9633364337c804054f567282530091b0d6110138",
+      "paperName": "A Global Best‑guided Firefy Algorithm for Engineering Problems"
+    },
+    "context match": "22/22",
+    "common references": {
+      "r1": {
+        "paperID": "307dbe82f332c3509e76dcc51cf29dadeaa0871d",
+        "paperName": "Derivative-Free Filter Simulated Annealing Method for Constrained Continuous Global Optimization",
+        "original citing context": "FSA method",
+        "citation citing context": "FSA method",
+        "match or not": true
+      },
+      "r2": {
+        "paperID": "7aaead0b87023d54df709862ad6403ec645dc48c",
+        "paperName": "ENGINEERING DESIGN OPTIMIZATION USING A SWARM WITH AN INTELLIGENT INFORMATION SHARING AMONG INDIVIDUALS",
+        "original citing context": "SI method",
+        "citation citing context": "SI method",
+        "match or not": true
+      },
+      "r3": {
+        "paperID": "c6e9abf60aacc0242f50fbd27be81de05a2ca8e1",
+        "paperName": "Constraint-handling in genetic algorithms through the use of dominance-based tournament selection",
+        "original citing context": "GA method",
+        "citation citing context": "GA method",
+        "match or not": true
+      },
+      "r4": {
+        "paperID": "0c2fe34981ed24f224e63e03fb9322068bf4f3e3",
+        "paperName": "Use of a self-adaptive penalty approach for engineering optimization problems",
+        "original citing context": "GA method",
+        "citation citing context": "GA method",
+        "match or not": true
+      },
+      "r5": {
+        "paperID": "c7655b97bd84b6379428e995473eb8292f4efa99",
+        "paperName": "Efficient evolutionary optimization through the use of a cultural algorithm",
+        "original citing context": "HGA method",
+        "citation citing context": "HGA method",
+        "match or not": true
+      },
+      "r6": {
+        "paperID": "c7f6de5f9e21c8acfb4b05e0e9f4608f95187f46",
+        "paperName": "Efficient evolutionary optimization through the use of a cultural algorithm",
+        "original citing context": "GA method",
+        "citation citing context": "GA method",
+        "match or not": true
+      },
+      "r7": {
+        "paperID": "695bd9bb89df717227357a4ee8d15843a11f3609",
+        "paperName": "Grey Wolf Optimizer",
+        "original citing context": "Grey Wolf Optimizer",
+        "citation citing context": "Grey Wolf Optimizer",
+        "match or not": true
+      },
+      "r8": {
+        "paperID": "908bc29d1a5c9718dd29edef2ca84d6c93699a90",
+        "paperName": "An improved particle swarm optimizer for mechanical design optimization problems",
+        "original citing context": "IPSO method",
+        "citation citing context": "IPSO method",
+        "match or not": true
+      },
+      "r9": {
+        "paperID": "034b2b97e6b23061f6f71a5e19c1b03bf4c19ec8",
+        "paperName": "GSA: A Gravitational Search Algorithm",
+        "original citing context": "Gravitational Search Algorithm",
+        "citation citing context": "Gravitational Search Algorithm",
+        "match or not": true
+      },
+      "r10": {
+        "paperID": "91def80765d761d1e8a8db14ba09f07ebbab7da7",
+        "paperName": "An effective co-evolutionary differential evolution for constrained optimization",
+        "original citing context": "CDE method",
+        "citation citing context": "CDE method",
+        "match or not": true
+      },
+      "r11": {
+        "paperID": "60fd6d0c50a3065c8082c94d075e4a169f492019",
+        "paperName": "A hybrid real-parameter genetic algorithm for function optimization",
+        "original citing context": "HSA-GA method",
+        "citation citing context": "HSA-GA method",
+        "match or not": true
+      },
+      "r12": {
+        "paperID": "41495d55d3d6ff08616512bf3fedf5ed11feb1ff",
+        "paperName": "A novel meta-heuristic optimization algorithm: Thermal exchange optimization",
+        "original citing context": "TEO method",
+        "citation citing context": "TEO method",
+        "match or not": true
+      },
+      "r13": {
+        "paperID": "0e3231f54e40e02d2544c17a73911e6f10be66d8",
+        "paperName": "Bacterial Foraging for Engineering Design Problems: Preliminary Results",
+        "original citing context": "BFOA method",
+        "citation citing context": "BFOA method",
+        "match or not": true
+      },
+      "r14": {
+        "paperID": "91de962e115bcf65eaf8579471a818ba8c5b0ea6",
+        "paperName": "Cuckoo search algorithm: a metaheuristic approach to solve structural optimization problems",
+        "original citing context": "Cuckoo\nSearch ",
+        "citation citing context": "Cuckoo\nSearch ",
+        "match or not": true
+      },
+      "r15": {
+        "paperID": "cd7e6c1d74ec6a8f9cb1e491771db3dcb1bc273c",
+        "paperName": "A modified version of a T‐Cell Algorithm for constrained optimization problems",
+        "original citing context": "T-cell algorithm",
+        "citation citing context": "T-cell algorithm",
+        "match or not": true
+      },
+      "r16": {
+        "paperID": "2f8022792bcbc9f15f81e0140ce0f98840720864",
+        "paperName": "A socio-behavioural simulation model for engineering design optimization",
+        "original citing context": "SBM method",
+        "citation citing context": "SBM method",
+        "match or not": true
+      },
+      "r17": {
+        "paperID": "478716ddc597df56c30e092a6a6402d6fdf91959",
+        "paperName": "",
+        "original citing context": "CPSO method",
+        "citation citing context": "CPSO method",
+        "match or not": true
+      },
+      "r18": {
+        "paperID": "dd5061631a4d11fa394f4421700ebf7e78dcbc59",
+        "paperName": "",
+        "original citing context": "Simulated Annealing (SA)",
+        "citation citing context": "Simulated Annealing (SA)",
+        "match or not": true
+      },
+      "r19": {
+        "paperID": "4ab51909a0649d0a9f6eb7bdf70f31660fd2101a",
+        "paperName": "Society and civilization: An optimization algorithm based on the simulation of social behavior",
+        "original citing context": "SCA method",
+        "citation citing context": "SCA method",
+        "match or not": true
+      },
+      "r20": {
+        "paperID": "a70236d1c7df42bf4292cb4762caec732aafd7cd",
+        "paperName": "Problem Definitions and Evaluation Criteria for the CEC 2014 Special Session and Competition on Single Objective Real-Parameter Numerical Optimization",
+        "original citing context": "CEC 2014",
+        "citation citing context": "CEC 2014",
+        "match or not": true
+      },
+      "r21": {
+        "paperID": "a8642297969ce6e64b92a765ec7a16c9e89352db",
+        "paperName": "\nAn effective multiagent evolutionary algorithm integrating a novel roulette inversion operator for engineering optimization",
+        "original citing context": "RAER method",
+        "citation citing context": "RAER method",
+        "match or not": true
+      },
+      "r22": {
+        "paperID": "aa67babb7362000237e7e4dd0068b0d80b36cdf6",
+        "paperName": "Differential Evolution – A Simple and Efficient Heuristic for global Optimization over Continuous Spaces",
+        "original citing context": "Differential evolution ",
+        "citation citing context": "Differential evolution ",
+        "match or not": true
+      }
+    }
+  },
+  "25": {
+    "original": {
+      "paperID": "3617ccfec4bed2d8ac15d0ad1a35b589d9b270cb",
+      "paperName": "Large Kernel Matters — Improve Semantic Segmentation by Global Convolutional Network"
+    },
+    "citation": {
+      "paperID": "5e6a670afb23ffc85020c60c3f4b8e65fff06c1e",
+      "paperName": "Semantic Segmentation With Context Encoding\nand Multi-Path Decoding"
+    },
+    "context match": "12/19",
+    "common references": {
+      "r1": {
+        "paperID": "cab372bc3824780cce20d9dd1c22d4df39ed081a",
+        "paperName": "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+        "original citing context": "DeepLab segmentation",
+        "citation citing context": "DeepLab segmentation",
+        "match or not": true
+      },
+      "r2": {
+        "paperID": "41308edf82ae645923efea2d6979d076b975ee25",
+        "paperName": "Convolutional Scale Invariance for Semantic Segmentation",
+        "original citing context": "Scale invariant CNN + CRF",
+        "citation citing context": "N/A",
+        "match or not": false
+      },
+      "r3": {
+        "paperID": "4cef5476f9da50c1a8fefdcb7114863966f61d67",
+        "paperName": "Efficient Piecewise Training of Deep Structured Models for Semantic Segmentation",
+        "original citing context": "Adelaide context",
+        "citation citing context": "adopted multi-resolution input (image pyramid) approach and\nfuse the corresponding features from multiple resolution",
+        "match or not": false
+      },
+      "r4": {
+        "paperID": "c8c494ee5488fe20e0aa01bddf3fc4632086d654",
+        "paperName": "The Cityscapes Dataset for Semantic Urban Scene Understanding",
+        "original citing context": "Cityscapes",
+        "citation citing context": "Cityscapes",
+        "match or not": true
+      },
+      "r5": {
+        "paperID": "6a16d519a5ce9a27cefd11c4f96c714fd2413c50",
+        "paperName": "The Fast Bilateral Solver",
+        "original citing context": "bilateral solver",
+        "citation citing context": "bilateral solver",
+        "match or not": true
+      },
+      "r6": {
+        "paperID": "55a3b288b6885cd8dcc247212de9e82e713702db",
+        "paperName": "Semantic Image Segmentation via Deep Parsing Network",
+        "original citing context": "DPN",
+        "citation citing context": "DPN",
+        "match or not": true
+      },
+      "r7": {
+        "paperID": "ca5c766b2d31a1f5ce8896a0a42b40a2bff9323a",
+        "paperName": "Conditional Random Fields as Recurrent Neural Networks",
+        "original citing context": "CRF-RNN",
+        "citation citing context": "CRF-RNN",
+        "match or not": true
+      },
+      "r8": {
+        "paperID": "2796c448023b78fd77f3a4b57966f257c5e654c2",
+        "paperName": "Laplacian Pyramid Reconstruction and Refinement for Semantic Segmentation",
+        "original citing context": "LRR [12] argues\nthat upsampling a feature map is better than score map",
+        "citation citing context": "use of multiple\nlevels of features from the middle layers of network",
+        "match or not": false
+      },
+      "r9": {
+        "paperID": "321c3a3da10d4b327b44f50c46f3305acb3bbaec",
+        "paperName": "Higher Order Conditional Random Fields in Deep Neural Networks",
+        "original citing context": "Oxford TVG HO CRF",
+        "citation citing context": "N/A",
+        "match or not": false
+      },
+      "r10???": {
+        "paperID": "0e0f4f90c4744eb52acc910d96d76f5dbca386d4",
+        "paperName": "Learning Sparse High Dimensional Filters: Image Filtering, Dense CRFs and Bilateral Neural Networks",
+        "original citing context": "introduces the bilateral filter to\nlearn the specific pairwise potentials within CNN",
+        "citation citing context": "integrated\nthe bilateral solver in DCNN to jointly train them form data",
+        "match or not": false
+      },
+      "r11": {
+        "paperID": "995c5f5e62614fcb4d2796ad2faab969da51713e",
+        "paperName": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+        "original citing context": "Batch Normalization",
+        "citation citing context": "Batch Normalization",
+        "match or not": true
+      },
+      "r12": {
+        "paperID": "6fc6803df5f9ae505cae5b2f178ade4062c768d0",
+        "paperName": "Fully convolutional networks for semantic segmentation",
+        "original citing context": "FCN",
+        "citation citing context": "FCN",
+        "match or not": true
+      },
+      "r13": {
+        "paperID": "71b7178df5d2b112d07e45038cb5637208659ff7",
+        "paperName": "Microsoft COCO: Common Objects in Context",
+        "original citing context": "Microsoft COCO",
+        "citation citing context": "Microsoft COCO",
+        "match or not": true
+      },
+      "r14": {
+        "paperID": "2173f1b8172c9b5bed4650c81b69988717bd6df6",
+        "paperName": "ParseNet: Looking Wider to See Better",
+        "original citing context": "ParseNet",
+        "citation citing context": "N/A",
+        "match or not": false
+      },
+      "r15": {
+        "paperID": "c81c20109c809cfc47565a9477c04ee005d424bf",
+        "paperName": "Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials",
+        "original citing context": "conditional random field",
+        "citation citing context": "conditional random field",
+        "match or not": true
+      },
+      "r16": {
+        "paperID": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+        "paperName": "Deep Residual Learning for Image Recognition",
+        "original citing context": "ResNet",
+        "citation citing context": "ResNet",
+        "match or not": true
+      },
+      "r17???": {
+        "paperID": "cf986bfe13a24d4739f95df3a856a3c6e4ed4c1c",
+        "paperName": "Learning Deconvolution Network for Semantic Segmentation",
+        "original citing context": "DeconvNet introduce the unpooling operation\n(i.e. inverse of pooling) and a glass-like network to learn\nthe upsampling process",
+        "citation citing context": "up-sampling and decoding the output of\nDCNN through learnable deconvlutional filters",
+        "match or not": false
+      },
+      "r18": {
+        "paperID": "aa8ef9a12eafadf201c01562f125f5f212b009b6",
+        "paperName": "Feedforward semantic segmentation with zoom-out features",
+        "original citing context": "TTI zoomout",
+        "citation citing context": "general, negative",
+        "match or not": false
+      },
+      "r19": {
+        "paperID": "f084f0126d48a0793cf7e60830089b93ef09c844",
+        "paperName": "BoxSup: Exploiting Bounding Boxes to Supervise Convolutional Networks for Semantic Segmentation",
+        "original citing context": "MSRA BoxSup",
+        "citation citing context": "N/A",
+        "match or not": false
+      },
+      "r20": {
+        "paperID": "e74f9b7f8eec6ba4704c206b93bc8079af3da4bd",
+        "paperName": "ImageNet Large Scale Visual Recognition Challenge",
+        "original citing context": "ImageNet",
+        "citation citing context": "ImageNet",
+        "match or not": true
+      },
+      "r21": {
+        "paperID": "6364fdaa0a0eccd823a779fcdd489173f938e91a",
+        "paperName": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+        "original citing context": "N/A",
+        "citation citing context": "use of multiple\nlevels of features from the middle layers of network",
+        "match or not": false
+      },
+      "r22": {
+        "paperID": "eb42cf88027de515750f230b23b1a057dc782108",
+        "paperName": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+        "original citing context": "VGG-net",
+        "citation citing context": "DCNN\ntrained for object recognition has already generated relatively\nhigh-level context features",
+        "match or not": false
+      },
+      "r23": {
+        "paperID": "39ad6c911f3351a3b390130a6e4265355b4d593b",
+        "paperName": "Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs",
+        "original citing context": "DeepLab-MSc-CRF-LargeFOV",
+        "citation citing context": "general, negative",
+        "match or not": false
+      },
+      "r24": {
+        "paperID": "e15cf50aa89fee8535703b9f9512fca5bfc43327",
+        "paperName": "Going deeper with convolutions",
+        "original citing context": "N/A",
+        "citation citing context": "DCNN in image classification",
+        "match or not": false
+      },
+      "r25": {
+        "paperID": "7f5fc84819c0cf94b771fe15141f65b123f7b8ec",
+        "paperName": "Multi-Scale Context Aggregation by Dilated Convolutions",
+        "original citing context": "appends several layers after the\nscore map to embed the multi-scale context",
+        "citation citing context": "attached\nmultiple dilated convolution layers after class likelihood maps\nto exercise multi-scale context aggregation",
+        "match or not": true
+      }
+    }
+  },
+  "26": {
+    "original": {
+      "paperID": "948d6118ac13ac088074148f813ea14df8b3276b",
+      "paperName": "Differential evolution algorithm with ensemble of parameters and\nmutation strategies"
+    },
+    "citation": {
+      "paperID": "d3154bb911f204f616af519bbce1aa11fc4aea83",
+      "paperName": "Harmony Search Based Parameter Ensemble Adaptation for Differential Evolution"
+    },
+    "context match": ,
+    "common references": {
+      "r1???": {
+        "paperID": "b711b1d8a946552aa139cb93104a724f5cfbbe95",
+        "paperName": "Adaptive Pareto Differential Evolution and Its Parallelization",
+        "original citing context": "adaptive Pareto DE algorithm for multi-objective optimization",
+        "citation citing context": "adaptive technique to overcome the burden of\ntuning the DE parameters by trial-and-error",
+        "match or not": true
+      },
+      "r2": {
+        "paperID": "99be7b49f8ab3c3d434a28532fc63e5a3fef400e",
+        "paperName": "Fiber Bragg grating sensor array interrogation using differential evolution",
+        "original citing context": "application of DE",
+        "citation citing context": "application of DE",
+        "match or not": true
+      },
+      "r3": {
+        "paperID": "2b193fb97e05fcc879171fb54e40c9b0896d08bf",
+        "paperName": "An introduction to differential evolution",
+        "original citing context": "DE guideline",
+        "citation citing context": "DE guideline",
+        "match or not": true
+      },
+      "r4": {
+        "paperID": "168e392b5e0111330963d2ad8a6d11632c625a5d",
+        "paperName": "Modified Differential Evolution for Constrained Optimization",
+        "original citing context": "crossover rate",
+        "citation citing context": "crossover rate",
+        "match or not": true
+      },
+      "r5": {
+        "paperID": "55238adbd3d78dc83cf906240727be02f6560470",
+        "paperName": "Differential Evolution Using a Neighborhood-Based Mutation Operator",
+        "original citing context": "DE mutation",
+        "citation citing context": "DE mutation",
+        "match or not": true
+      },
+      "r6???": {
+        "paperID": "ca7605b6625b973f6ac626147ed2923d7c1ec534",
+        "paperName": "A Fuzzy Adaptive Differential Evolution Algorithm",
+        "original citing context": "FADE adapts\nthe control parameters F and CR based on fuzzy logic controllers\nwhose inputs are the relative function values and individuals of\nsuccessive generations",
+        "citation citing context": "techniques to overcome the burden of\ntuning the DE parameters by trial-and-error",
+        "match or not": false
+      },
+      "r7": {
+        "paperID": "4806cb721864fb5a5ef9cd319317605221c06911",
+        "paperName": "Minimal representation multisensor fusion using differential evolution",
+        "original citing context": "application of DE",
+        "citation citing context": "application of DE",
+        "match or not": true
+      },
+      "r8": {
+        "paperID": "322f6e061fbbf91d0dde65bd3ed90fb819af98e8",
+        "paperName": "Adapting Operator Settings in Genetic Algorithms",
+        "original citing context": "different parameter adaptation schemes\nhave been presented",
+        "citation citing context": "different parameter adaptation schemes\nhave been presented",
+        "match or not": true
+      },
+      "r9???": {
+        "paperID": "70bbf6c3e7d8cb302c82ab0a95302f74de8148f4",
+        "paperName": "Solving Rotated Multi-objective Optimization Problems Using Differential Evolution",
+        "original citing context": "DE/current-to-rand/1/bin being a rotationinvariant strategy can solve rotated problems better than other\nstrategies",
+        "citation citing context": "DE mutation and crossover strategies",
+        "match or not": true
+      },
+      "r10": {
+        "paperID": "07214ca217c4a4508a6d4147633d33180b01c6b0",
+        "paperName": "Adaptation in differential evolution: A numerical comparison",
+        "original citing context": "partial adaptation schemes",
+        "citation citing context": "partial adaptation schemes",
+        "match or not": true
+      },
+      "r11": {
+        "paperID": "1c340a2f4030137cc393990b0146034ca616f656",
+        "paperName": "Differential Evolution Algorithm With Strategy Adaptation for Global Numerical Optimization",
+        "original citing context": "s. The population of DE may evolve through\ndifferent regions in the search space, within which different strategies [19] with different parameter settings may be more effective\nthan others",
+        "citation citing context": "However, in DE during the evolution process, the\npopulation traverses through different regions in the search\nspace, within which different strategies [14] with different\nparameter settings may be more effective",
+        "match or not": true
+      },
+      "r12": {
+        "paperID": "b297396246f796b31363b74767055d0c9ec71670",
+        "paperName": "Differential evolution a simple and efficient adaptive scheme for global optimization over continu",
+        "original citing context": "proposal of Differential evolution (DE)",
+        "citation citing context": "proposal of Differential evolution (DE)",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "2df65eef5a3bd8a8664853c8cb154110cae080e5",
+        "paperName": "What Have You Done for Me Lately? Adapting Operator Probabilities in a Steady-State Genetic Algorithm",
+        "original citing context": "different parameter adaptation schemes",
+        "citation citing context": "different parameter\nadaptation schemes",
+        "match or not": true
+      },
+      "r14": {
+        "paperID": "cc5c24681ca0149bf027e4bee1f29f0f02bf5151",
+        "paperName": "Influence of crossover on the behavior of Differential Evolution Algorithms",
+        "original citing context": "crossover rate",
+        "citation citing context": "crossover rate",
+        "match or not": true
+      },
+      "r15": {
+        "paperID": "6eb6a1e543c874271217911f0cb0786090d462ae",
+        "paperName": "",
+        "original citing context": "The scale factor F can be linearly reduced\nfrom a maximum to a minimum value with increasing generation\ncount",
+        "citation citing context": "inappropriate choice may lead to premature\nconvergence, stagnation, or wastage of computational\nresources",
+        "match or not": false
+      },
+      "r16": {
+        "paperID": "5a4c3b779dd63f4c81fc52fd75645113cdcca299",
+        "paperName": "\nSelf-Adapting Control Parameters in Differential Evolution: A Comparative Study on Numerical Benchmark Problems",
+        "original citing context": "The most appropriate parameter values produce better offspring that are more likely to survive and\npropagate the better parameter values",
+        "citation citing context": "Self-adaptive techniques are based on the assumption that the\nmost appropriate parameter values produce better offspring\nwhich are more likely to survive and propagate the better\nparameter values ",
+        "match or not": true
+      },
+      "r17???": {
+        "paperID": "120e7d7ee1b5d04a1d9c63d620992d8f96cac51c",
+        "paperName": "Operator and parameter adaptation in genetic algorithms",
+        "original citing context": "The parameter adaptation techniques\ncan be categorized as [5]: deterministic, adaptive and self-adaptive.",
+        "citation citing context": "different parameter\nadaptation schemes have been presented",
+        "match or not": true
+      },
+      "r18": {
+        "paperID": "aa67babb7362000237e7e4dd0068b0d80b36cdf6",
+        "paperName": "Differential Evolution – A Simple and Efficient Heuristic for global Optimization over Continuous Spaces",
+        "original citing context": "DE employs the binomial (uniform) crossover",
+        "citation citing context": "DE employs the binomial (uniform) crossover",
+        "match or not": true
+      },
+      "r19": {
+        "paperID": "6f9d7dd00e57381cdc6fe094c6583d7e45a94940",
+        "paperName": "Cultured differential evolution for constrained optimization",
+        "original citing context": "N/A",
+        "citation citing context": "N/A",
+        "match or not": true
+      },
+      "r20": {
+        "paperID": "a475189f9f704e8f7f3c0f42f1e672cbdd0c1ab9",
+        "paperName": "Using Adaptive Operators in Genetic Search",
+        "original citing context": "different parameter adaptation schemes",
+        "citation citing context": "different parameter adaptation schemes",
+        "match or not": true
+      },
+      "r21": {
+        "paperID": "c5aca9f658c445902a12fdea4492108476b7854d",
+        "paperName": "Parameter Control in Evolutionary Algorithms",
+        "original citing context": "different parameter adaptation schemes",
+        "citation citing context": "different parameter adaptation schemes",
+        "match or not": true
+      },
+      "r22": {
+        "paperID": "4b7595bc5e1b8b04c249c3272b0566d4432faf2c",
+        "paperName": "JADE: Adaptive Differential Evolution With Optional External Archive",
+        "original citing context": "JADE algorithm",
+        "citation citing context": "JADE algorithm",
+        "match or not": true
+      },
+      "r23": {
+        "paperID": "85694d78476eba4312fc95d028bfd55556610316",
+        "paperName": "On the usage of differential evolution for function optimization",
+        "original citing context": "method, parameter, guideline",
+        "citation citing context": "method, parameter, guideline",
+        "match or not": true
+      },
+      "r24???": {
+        "paperID": "d18fccc485135f895b1280208735941d764bb108",
+        "paperName": "The self-adaptive Pareto differential evolution algorithm",
+        "original citing context": "self-adapted the crossover rate of DE for\nmulti-objective optimization problems, by encoding the crossover\nrater into each individual, to simultaneously evolve with other\nparameters.",
+        "citation citing context": "adaptive techniques",
+        "match or not": false
+      },
+      "r25": {
+        "paperID": "4721b02cc102a06fa2b3546f3866e7bfe0f97372",
+        "paperName": "Real-parameter optimization with differential evolution",
+        "original citing context": "guideline for choosing parameters",
+        "citation citing context": "guideline for choosing parameters",
+        "match or not": true
+      },
+      "r26???": {
+        "paperID": "50dabf48c3fe425667288bd64f8cf730e0b3c1d1",
+        "paperName": "Self-adaptive Differential Evolution",
+        "original citing context": "self-adaptation scheme (SDE)",
+        "citation citing context": "general, adaptation schemes",
+        "match or not": true
+      }
+  },
+  "22": {
+    "original": {
+      "paperID": "",
+      "paperName": ""
+    },
+    "citation": {
+      "paperID": "",
+      "paperName": ""
+    },
+    "context match": ,
+    "common references": {
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      }
+    }
+  },
+  "22": {
+    "original": {
+      "paperID": "",
+      "paperName": ""
+    },
+    "citation": {
+      "paperID": "",
+      "paperName": ""
+    },
+    "context match": ,
+    "common references": {
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      }
+    }
+  },
+  "22": {
+    "original": {
+      "paperID": "",
+      "paperName": ""
+    },
+    "citation": {
+      "paperID": "",
+      "paperName": ""
+    },
+    "context match": ,
+    "common references": {
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      }
+    }
+  },
+  "22": {
+    "original": {
+      "paperID": "",
+      "paperName": ""
+    },
+    "citation": {
+      "paperID": "",
+      "paperName": ""
+    },
+    "context match": ,
+    "common references": {
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      }
+    }
+  },
+  "22": {
+    "original": {
+      "paperID": "",
+      "paperName": ""
+    },
+    "citation": {
+      "paperID": "",
+      "paperName": ""
+    },
+    "context match": ,
+    "common references": {
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      }
+    }
+  },
+  "22": {
+    "original": {
+      "paperID": "",
+      "paperName": ""
+    },
+    "citation": {
+      "paperID": "",
+      "paperName": ""
+    },
+    "context match": ,
+    "common references": {
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      }
+    }
+  },
+  "22": {
+    "original": {
+      "paperID": "",
+      "paperName": ""
+    },
+    "citation": {
+      "paperID": "",
+      "paperName": ""
+    },
+    "context match": ,
+    "common references": {
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      }
+    }
+  },
+  "22": {
+    "original": {
+      "paperID": "",
+      "paperName": ""
+    },
+    "citation": {
+      "paperID": "",
+      "paperName": ""
+    },
+    "context match": ,
+    "common references": {
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      },
+      "r1": {
+        "paperID": "",
+        "paperName": "",
+        "original citing context": "",
+        "citation citing context": "",
+        "match or not": true
+      }
+    }
+  }
+}

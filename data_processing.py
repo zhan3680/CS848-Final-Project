@@ -286,4 +286,4 @@ if __name__ == '__main__':
     # statistical_test_two_groups("final_data_retracted/before_retraction", "final_data_retracted/after_retraction", "promotion dispersion")
     # print(promotion_effect_score_group("final_data/high_influence"))
 
-    find_target_citations("final_data", 21)
+    find_target_citations("final_data", 5)
