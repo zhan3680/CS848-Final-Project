@@ -6,7 +6,7 @@
     },
     "citation": {
       "paperID": "7e9247bfed98310565660113c6571a4c981c1f19",
-      "paperName": "Single Low-Dose CT Image Denoising Using a Generative Adversarial Network With Modified\nU-Net Generator and Multi-Level Discriminator"
+      "paperName": "Single Low-Dose CT Image Denoising Using a Generative Adversarial Network With Modified U-Net Generator and Multi-Level Discriminator"
     },
     "context match": "19/21",
     "common references": {
@@ -76,8 +76,8 @@
       "r10": {
         "paperID": "a4c644e5cc0b1795c496211410635dda0e59cbcf",
         "paperName": "Computed tomography--an increasing source of radiation exposure",
-        "original citing context": "there is a potential radiation risk to the\npatient, since x-rays could cause genetic damage and induce\ncancer in a probability related to the radiation dose",
-        "citation citing context": "the potential risk of\ngenetic damages or cancers caused by patients’ exposure to\nradiations",
+        "original citing context": "there is a potential radiation risk to the patient, since x-rays could cause genetic damage and induce cancer in a probability related to the radiation dose",
+        "citation citing context": "the potential risk of genetic damages or cancers caused by patients’ exposure to radiations",
         "match or not": true
       },
       "r11": {
@@ -90,33 +90,33 @@
       "r12": {
         "paperID": "915c4bb289b3642489e904c65a47fa56efb60658",
         "paperName": "Perceptual Losses for Real-Time Style Transfer and Super-Resolution",
-        "original citing context": "As an algorithm tries to minimize per-pixel\nMSE, it overlooks subtle image textures/signatures critical for\nhuman perception",
-        "citation citing context": "using mean squared error (MSE) as loss function would overlook subtle image features critical for human\nperception",
+        "original citing context": "As an algorithm tries to minimize per-pixel MSE, it overlooks subtle image textures/signatures critical for human perception",
+        "citation citing context": "using mean squared error (MSE) as loss function would overlook subtle image features critical for human perception",
         "match or not": true
       },
-      "r13???": {
+      "r13": {
         "paperID": "df0c54fe61f0ffb9f0e36a17c2038d9a1964cba3",
         "paperName": "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network",
-        "original citing context": "a perceptual loss that computes the difference between images\nin an established feature space",
-        "citation citing context": "The using\nof perceptual loss can solve the situation that two images\ncan look the same to human beings but be quite different\nmathematically",
+        "original citing context": "a perceptual loss that computes the difference between images in an established feature space",
+        "citation citing context": "The using of perceptual loss can solve the situation that two images can look the same to human beings but be quite different mathematically",
         "match or not": true
       },"r14": {
         "paperID": "5c2e52162e54abcc142943de54cd739a527fc562",
         "paperName": "Risk of cancer from diagnostic xrays: estimates for the UK and 14 other countries",
-        "original citing context": "there is a potential radiation risk to the\npatient, since x-rays could cause genetic damage and induce\ncancer in a probability related to the radiation dose",
-        "citation citing context": "the potential risk of\ngenetic damages or cancers caused by patients’ exposure to\nradiations",
+        "original citing context": "there is a potential radiation risk to the patient, since x-rays could cause genetic damage and induce cancer in a probability related to the radiation dose",
+        "citation citing context": "the potential risk of genetic damages or cancers caused by patients’ exposure to radiations",
         "match or not": true
       },"r15": {
         "paperID": "edf73ab12595c6709f646f542a0d2b33eb20a3f4",
         "paperName": "Improved Training of Wasserstein GANs",
-        "original citing context": "improved WGAN with gradient penalty was proposed [41]\nto accelerate the convergence; how it works",
-        "citation citing context": "Wasserstein distance was useful for stabilizing the\nGAN training but not good enough for improving the image\nquality",
+        "original citing context": "improved WGAN with gradient penalty was proposed [41] to accelerate the convergence; how it works",
+        "citation citing context": "Wasserstein distance was useful for stabilizing the GAN training but not good enough for improving the image quality",
         "match or not": false
       },"r16": {
         "paperID": "11a8dcaec7a7751a9e240440267c5773fc7faefa",
         "paperName": "Generative Adversarial Networks for Noise Reduction in Low-Dose CT",
-        "original citing context": "GAN network for cardiac CT\nimage denoising",
-        "citation citing context": "use GAN for image\nnoise removal, more specifically for LDCT restoration",
+        "original citing context": "GAN network for cardiac CT image denoising",
+        "citation citing context": "use GAN for image noise removal, more specifically for LDCT restoration",
         "match or not": true
       },"r17": {
         "paperID": "6364fdaa0a0eccd823a779fcdd489173f938e91a",
@@ -127,14 +127,14 @@
       },"r18": {
         "paperID": "ef6abdcbd0871cb356e8669b6cdb31ed8b013cc2",
         "paperName": "Medical Image Synthesis with Context-Aware Generative Adversarial Networks",
-        "original citing context": "Nie et al. proposed to use GAN to estimate\nCT image from its corresponding MR image",
-        "citation citing context": "Nie et al. employed a 3D fully\nconvolutional network (FCN) together with residual connection as the generator and utilized an additional image gradient\ndifference term in the loss function",
+        "original citing context": "Nie et al. proposed to use GAN to estimate CT image from its corresponding MR image",
+        "citation citing context": "Nie et al. employed a 3D fully convolutional network (FCN) together with residual connection as the generator and utilized an additional image gradient difference term in the loss function",
         "match or not": false
       },"r19": {
         "paperID": "ba99b10cb9559f1e1194f572e5586c22902fb4b6",
         "paperName": "Improving abdomen tumor low-dose CT images using a fast dictionary learning based processing",
         "original citing context": "an adapted K-SVD method was proposed to reduce artifacts in CT images",
-        "citation citing context": "Chen et al. [12] proposed to adapt a patch-based K-SVD algorithm to\nsuppress mottled noise and streak artifacts in abdomen CT\nimages",
+        "citation citing context": "Chen et al. [12] proposed to adapt a patch-based K-SVD algorithm to suppress mottled noise and streak artifacts in abdomen CT images",
         "match or not": true
       },"r20": {
         "paperID": "c6dc80c832d6760f8a5d6a01678474e534c0258b",
@@ -256,8 +256,8 @@
       "r14": {
         "paperID": "91de962e115bcf65eaf8579471a818ba8c5b0ea6",
         "paperName": "Cuckoo search algorithm: a metaheuristic approach to solve structural optimization problems",
-        "original citing context": "Cuckoo\nSearch ",
-        "citation citing context": "Cuckoo\nSearch ",
+        "original citing context": "Cuckoo Search ",
+        "citation citing context": "Cuckoo Search ",
         "match or not": true
       },
       "r15": {
@@ -304,7 +304,7 @@
       },
       "r21": {
         "paperID": "a8642297969ce6e64b92a765ec7a16c9e89352db",
-        "paperName": "\nAn effective multiagent evolutionary algorithm integrating a novel roulette inversion operator for engineering optimization",
+        "paperName": " An effective multiagent evolutionary algorithm integrating a novel roulette inversion operator for engineering optimization",
         "original citing context": "RAER method",
         "citation citing context": "RAER method",
         "match or not": true
@@ -325,9 +325,9 @@
     },
     "citation": {
       "paperID": "5e6a670afb23ffc85020c60c3f4b8e65fff06c1e",
-      "paperName": "Semantic Segmentation With Context Encoding\nand Multi-Path Decoding"
+      "paperName": "Semantic Segmentation With Context Encoding and Multi-Path Decoding"
     },
-    "context match": "12/19",
+    "context match": "14/19",
     "common references": {
       "r1": {
         "paperID": "cab372bc3824780cce20d9dd1c22d4df39ed081a",
@@ -347,7 +347,7 @@
         "paperID": "4cef5476f9da50c1a8fefdcb7114863966f61d67",
         "paperName": "Efficient Piecewise Training of Deep Structured Models for Semantic Segmentation",
         "original citing context": "Adelaide context",
-        "citation citing context": "adopted multi-resolution input (image pyramid) approach and\nfuse the corresponding features from multiple resolution",
+        "citation citing context": "adopted multi-resolution input (image pyramid) approach and fuse the corresponding features from multiple resolution",
         "match or not": false
       },
       "r4": {
@@ -381,8 +381,8 @@
       "r8": {
         "paperID": "2796c448023b78fd77f3a4b57966f257c5e654c2",
         "paperName": "Laplacian Pyramid Reconstruction and Refinement for Semantic Segmentation",
-        "original citing context": "LRR [12] argues\nthat upsampling a feature map is better than score map",
-        "citation citing context": "use of multiple\nlevels of features from the middle layers of network",
+        "original citing context": "LRR argues that upsampling a feature map is better than score map",
+        "citation citing context": "use of multiple levels of features from the middle layers of network",
         "match or not": false
       },
       "r9": {
@@ -392,12 +392,12 @@
         "citation citing context": "N/A",
         "match or not": false
       },
-      "r10???": {
+      "r10": {
         "paperID": "0e0f4f90c4744eb52acc910d96d76f5dbca386d4",
         "paperName": "Learning Sparse High Dimensional Filters: Image Filtering, Dense CRFs and Bilateral Neural Networks",
-        "original citing context": "introduces the bilateral filter to\nlearn the specific pairwise potentials within CNN",
-        "citation citing context": "integrated\nthe bilateral solver in DCNN to jointly train them form data",
-        "match or not": false
+        "original citing context": "introduces the bilateral filter to learn the specific pairwise potentials within CNN",
+        "citation citing context": "integrated the bilateral solver in DCNN to jointly train them form data",
+        "match or not": true
       },
       "r11": {
         "paperID": "995c5f5e62614fcb4d2796ad2faab969da51713e",
@@ -441,12 +441,12 @@
         "citation citing context": "ResNet",
         "match or not": true
       },
-      "r17???": {
+      "r17": {
         "paperID": "cf986bfe13a24d4739f95df3a856a3c6e4ed4c1c",
         "paperName": "Learning Deconvolution Network for Semantic Segmentation",
-        "original citing context": "DeconvNet introduce the unpooling operation\n(i.e. inverse of pooling) and a glass-like network to learn\nthe upsampling process",
-        "citation citing context": "up-sampling and decoding the output of\nDCNN through learnable deconvlutional filters",
-        "match or not": false
+        "original citing context": "DeconvNet introduce the unpooling operation (i.e. inverse of pooling) and a glass-like network to learn the upsampling process",
+        "citation citing context": "up-sampling and decoding the output of DCNN through learnable deconvlutional filters",
+        "match or not": true
       },
       "r18": {
         "paperID": "aa8ef9a12eafadf201c01562f125f5f212b009b6",
@@ -473,14 +473,14 @@
         "paperID": "6364fdaa0a0eccd823a779fcdd489173f938e91a",
         "paperName": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
         "original citing context": "N/A",
-        "citation citing context": "use of multiple\nlevels of features from the middle layers of network",
+        "citation citing context": "use of multiple levels of features from the middle layers of network",
         "match or not": false
       },
       "r22": {
         "paperID": "eb42cf88027de515750f230b23b1a057dc782108",
         "paperName": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
         "original citing context": "VGG-net",
-        "citation citing context": "DCNN\ntrained for object recognition has already generated relatively\nhigh-level context features",
+        "citation citing context": "DCNN trained for object recognition has already generated relatively high-level context features",
         "match or not": false
       },
       "r23": {
@@ -500,8 +500,8 @@
       "r25": {
         "paperID": "7f5fc84819c0cf94b771fe15141f65b123f7b8ec",
         "paperName": "Multi-Scale Context Aggregation by Dilated Convolutions",
-        "original citing context": "appends several layers after the\nscore map to embed the multi-scale context",
-        "citation citing context": "attached\nmultiple dilated convolution layers after class likelihood maps\nto exercise multi-scale context aggregation",
+        "original citing context": "appends several layers after the score map to embed the multi-scale context",
+        "citation citing context": "attached multiple dilated convolution layers after class likelihood maps to exercise multi-scale context aggregation",
         "match or not": true
       }
     }
@@ -509,19 +509,19 @@
   "26": {
     "original": {
       "paperID": "948d6118ac13ac088074148f813ea14df8b3276b",
-      "paperName": "Differential evolution algorithm with ensemble of parameters and\nmutation strategies"
+      "paperName": "Differential evolution algorithm with ensemble of parameters and mutation strategies"
     },
     "citation": {
       "paperID": "d3154bb911f204f616af519bbce1aa11fc4aea83",
       "paperName": "Harmony Search Based Parameter Ensemble Adaptation for Differential Evolution"
     },
-    "context match": ,
+    "context match": "21/25",
     "common references": {
-      "r1???": {
+      "r1": {
         "paperID": "b711b1d8a946552aa139cb93104a724f5cfbbe95",
         "paperName": "Adaptive Pareto Differential Evolution and Its Parallelization",
         "original citing context": "adaptive Pareto DE algorithm for multi-objective optimization",
-        "citation citing context": "adaptive technique to overcome the burden of\ntuning the DE parameters by trial-and-error",
+        "citation citing context": "adaptive technique to overcome the burden of tuning the DE parameters by trial-and-error",
         "match or not": true
       },
       "r2": {
@@ -555,9 +555,9 @@
       "r6???": {
         "paperID": "ca7605b6625b973f6ac626147ed2923d7c1ec534",
         "paperName": "A Fuzzy Adaptive Differential Evolution Algorithm",
-        "original citing context": "FADE adapts\nthe control parameters F and CR based on fuzzy logic controllers\nwhose inputs are the relative function values and individuals of\nsuccessive generations",
-        "citation citing context": "techniques to overcome the burden of\ntuning the DE parameters by trial-and-error",
-        "match or not": false
+        "original citing context": "FADE adapts the control parameters F and CR based on fuzzy logic controllers whose inputs are the relative function values and individuals of successive generations",
+        "citation citing context": "techniques to overcome the burden of tuning the DE parameters by trial-and-error",
+        "match or not": true
       },
       "r7": {
         "paperID": "4806cb721864fb5a5ef9cd319317605221c06911",
@@ -569,16 +569,16 @@
       "r8": {
         "paperID": "322f6e061fbbf91d0dde65bd3ed90fb819af98e8",
         "paperName": "Adapting Operator Settings in Genetic Algorithms",
-        "original citing context": "different parameter adaptation schemes\nhave been presented",
-        "citation citing context": "different parameter adaptation schemes\nhave been presented",
+        "original citing context": "different parameter adaptation schemes have been presented",
+        "citation citing context": "different parameter adaptation schemes have been presented",
         "match or not": true
       },
       "r9???": {
         "paperID": "70bbf6c3e7d8cb302c82ab0a95302f74de8148f4",
         "paperName": "Solving Rotated Multi-objective Optimization Problems Using Differential Evolution",
-        "original citing context": "DE/current-to-rand/1/bin being a rotationinvariant strategy can solve rotated problems better than other\nstrategies",
+        "original citing context": "DE/current-to-rand/1/bin being a rotationinvariant strategy can solve rotated problems better than other strategies",
         "citation citing context": "DE mutation and crossover strategies",
-        "match or not": true
+        "match or not": false
       },
       "r10": {
         "paperID": "07214ca217c4a4508a6d4147633d33180b01c6b0",
@@ -590,8 +590,8 @@
       "r11": {
         "paperID": "1c340a2f4030137cc393990b0146034ca616f656",
         "paperName": "Differential Evolution Algorithm With Strategy Adaptation for Global Numerical Optimization",
-        "original citing context": "s. The population of DE may evolve through\ndifferent regions in the search space, within which different strategies [19] with different parameter settings may be more effective\nthan others",
-        "citation citing context": "However, in DE during the evolution process, the\npopulation traverses through different regions in the search\nspace, within which different strategies [14] with different\nparameter settings may be more effective",
+        "original citing context": "s. The population of DE may evolve through different regions in the search space, within which different strategies with different parameter settings may be more effective than others",
+        "citation citing context": "However, in DE during the evolution process, the population traverses through different regions in the search space, within which different strategies with different parameter settings may be more effective",
         "match or not": true
       },
       "r12": {
@@ -601,11 +601,11 @@
         "citation citing context": "proposal of Differential evolution (DE)",
         "match or not": true
       },
-      "r1": {
+      "r13": {
         "paperID": "2df65eef5a3bd8a8664853c8cb154110cae080e5",
         "paperName": "What Have You Done for Me Lately? Adapting Operator Probabilities in a Steady-State Genetic Algorithm",
         "original citing context": "different parameter adaptation schemes",
-        "citation citing context": "different parameter\nadaptation schemes",
+        "citation citing context": "different parameter adaptation schemes",
         "match or not": true
       },
       "r14": {
@@ -618,23 +618,23 @@
       "r15": {
         "paperID": "6eb6a1e543c874271217911f0cb0786090d462ae",
         "paperName": "",
-        "original citing context": "The scale factor F can be linearly reduced\nfrom a maximum to a minimum value with increasing generation\ncount",
-        "citation citing context": "inappropriate choice may lead to premature\nconvergence, stagnation, or wastage of computational\nresources",
+        "original citing context": "The scale factor F can be linearly reduced from a maximum to a minimum value with increasing generation count",
+        "citation citing context": "inappropriate choice may lead to premature convergence, stagnation, or wastage of computational resources",
         "match or not": false
       },
       "r16": {
         "paperID": "5a4c3b779dd63f4c81fc52fd75645113cdcca299",
-        "paperName": "\nSelf-Adapting Control Parameters in Differential Evolution: A Comparative Study on Numerical Benchmark Problems",
-        "original citing context": "The most appropriate parameter values produce better offspring that are more likely to survive and\npropagate the better parameter values",
-        "citation citing context": "Self-adaptive techniques are based on the assumption that the\nmost appropriate parameter values produce better offspring\nwhich are more likely to survive and propagate the better\nparameter values ",
+        "paperName": " Self-Adapting Control Parameters in Differential Evolution: A Comparative Study on Numerical Benchmark Problems",
+        "original citing context": "The most appropriate parameter values produce better offspring that are more likely to survive and propagate the better parameter values",
+        "citation citing context": "Self-adaptive techniques are based on the assumption that the most appropriate parameter values produce better offspring which are more likely to survive and propagate the better parameter values ",
         "match or not": true
       },
-      "r17???": {
+      "r17": {
         "paperID": "120e7d7ee1b5d04a1d9c63d620992d8f96cac51c",
         "paperName": "Operator and parameter adaptation in genetic algorithms",
-        "original citing context": "The parameter adaptation techniques\ncan be categorized as [5]: deterministic, adaptive and self-adaptive.",
-        "citation citing context": "different parameter\nadaptation schemes have been presented",
-        "match or not": true
+        "original citing context": "The parameter adaptation techniques can be categorized as: deterministic, adaptive and self-adaptive.",
+        "citation citing context": "different parameter adaptation schemes have been presented",
+        "match or not": false
       },
       "r18": {
         "paperID": "aa67babb7362000237e7e4dd0068b0d80b36cdf6",
@@ -681,7 +681,7 @@
       "r24???": {
         "paperID": "d18fccc485135f895b1280208735941d764bb108",
         "paperName": "The self-adaptive Pareto differential evolution algorithm",
-        "original citing context": "self-adapted the crossover rate of DE for\nmulti-objective optimization problems, by encoding the crossover\nrater into each individual, to simultaneously evolve with other\nparameters.",
+        "original citing context": "self-adapted the crossover rate of DE for multi-objective optimization problems, by encoding the crossover rater into each individual, to simultaneously evolve with other parameters.",
         "citation citing context": "adaptive techniques",
         "match or not": false
       },
@@ -700,249 +700,136 @@
         "match or not": true
       }
   },
-  "22": {
+  "17": {
     "original": {
-      "paperID": "",
-      "paperName": ""
+      "paperID": "7c6fb8b3deaa75f94f9c185eac4cae3f2d0bf574",
+      "paperName": "Hybrid recursive regularized thermal lattice Boltzmann model for high subsonic compressible flows"
     },
     "citation": {
-      "paperID": "",
-      "paperName": ""
+      "paperID": "5358df30ed7622870abc459fb521e03f2c91aea3",
+      "paperName": "Improved compressible hybrid lattice Boltzmann method on standard lattice for subsonic and supersonic flows"
     },
-    "context match": ,
+    "context match": "6/15",
     "common references": {
       "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
+        "paperID": "6d1378c50871928ea9ce5fa88fd13ec6b7253745",
+        "paperName": "Coupling lattice Boltzmann model for simulation of thermal flows on standard lattices.",
+        "original citing context": "a coupled double distribution function (DDF) lattice Boltzmann model was developed for thermal flow with correcting terms in two-dimensional\nspace of multiple relaxation time collision model",
+        "citation citing context": "the low symmetry of the lattice",
+        "match or not": false
+      },
+      "r2": {
+        "paperID": "d750ee5dc324285e9e3866e6408a7978cb431562",
+        "paperName": "Lattice Boltzmann algorithms without cubic defects in Galilean invariance on standard lattices",
+        "original citing context": "a lattice Boltzmann algorithm with Hermite-Gram-Schmidt polynomials to reduce\ncubic defects in Galilean invariance on standard lattices for the simulation of low-subsonic flows with uniform density",
+        "citation citing context": "the compressibility defect (Galilean invariance) of standard lattices",
         "match or not": true
       },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
+      "r3": {
+        "paperID": "68c22a0858d0b2e3fc4a50cad495b9fa75ce2459",
+        "paperName": "Regularized thermal lattice Boltzmann method for natural convection with large temperature differences",
+        "original citing context": "N/A",
+        "citation citing context": "This approach\nhas been widely used to model the hydrodynamics in the Boussinesq approximation where the density variation appears only in a\nforcing term",
+        "match or not": false
+      },
+      "r4": {
+        "paperID": "af1c4cce4222828045d434968552a6e84dc7e402",
+        "paperName": "The mathematical theory of non-uniform gases",
+        "original citing context": "the Chapman-Enskog multiscale technique",
+        "citation citing context": "Chapman–Enskog development",
         "match or not": true
       },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
+      "r5": {
+        "paperID": "bb205a8acf7e003616d006e421e740d2d23d4847",
+        "paperName": "Lattice Boltzmann Method and Its Applications in Engineering",
+        "original citing context": "The lattice Boltzmann method widely used",
+        "citation citing context": "The lattice Boltzmann method widely used",
         "match or not": true
       },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
+      "r6": {
+        "paperID": "345b92eb875f6cf326010f2fff04a40ef2035179",
+        "paperName": "A new hybrid recursive regularised Bhatnagar–Gross–Krook collision model for Lattice Boltzmann method-based large eddy simulation",
+        "original citing context": "dynamic hybrid recursive regularized\nBGK model",
+        "citation citing context": "Hybrid Regularized Recursive (HRR) collision operator",
         "match or not": true
       },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
+      "r7": {
+        "paperID": "33045b3f1c1c57f8b7b248f801982884a181980a",
+        "paperName": "A Model for Collision Processes in Gases. I. Small Amplitude Processes in Charged and Neutral One-Component Systems",
+        "original citing context": "the BhatnagarGross-Krook (BGK) model",
+        "citation citing context": "the BGK collision operator",
         "match or not": true
       },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
+      "r8": {
+        "paperID": "de1be91902972424493bcfa87cac2a0ce6f261c0",
+        "paperName": "Recursive regularization step for high-order lattice Boltzmann methods",
+        "original citing context": "binomial theorem of Hermite polynomials",
+        "citation citing context": "the recurrence formula",
+        "match or not": false
+      },
+      "r9": {
+        "paperID": "0dbcfe347064efd098b0059bf7813f7a96da03e6",
+        "paperName": "Theory of the lattice Boltzmann method: acoustic and thermal properties in two and three dimensions.",
+        "original citing context": "multi-relaxation-time models",
+        "citation citing context": "This approach\nhas been widely used to model the hydrodynamics in the Boussinesq approximation where the density variation appears only in a\nforcing term",
+        "match or not": false
+      },
+      "r10": {
+        "paperID": "503b502af1fe6d86372b89c5a82bc280cc90d091",
+        "paperName": "A Lattice-Boltzmann / Finite-Difference Hybrid Simulation of Transonic Flow",
+        "original citing context": "background",
+        "citation citing context": "benchmarking",
+        "match or not": false
+      },
+      "r11": {
+        "paperID": "20381a1e7de345c7d6d7a05cc59a3d38fcee7fcb",
+        "paperName": "High-order regularization in lattice-Boltzmann equations",
+        "original citing context": "regularized BGK models",
+        "citation citing context": "N/A",
+        "match or not": false
+      },
+      "r12": {
+        "paperID": "deb1829e73704202aa6a1837b722fcf9d783aaba",
+        "paperName": "Dispersion-relation-preserving finite difference schemes for computational acoustics",
+        "original citing context": "analytical solution",
+        "citation citing context": "analytical solution",
         "match or not": true
       },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
+      "r13": {
+        "paperID": "e8a82919e5af9af98bf102ca8753233f3bb314e7",
+        "paperName": "A Lattice-Boltzmann model for low-Mach reactive flows",
+        "original citing context": "the effects of turbulent\nfluctuations have a striking resemblance to those of microscale (thermal) fluctuations in laminar flows",
+        "citation citing context": "the collide-and-stream corrected LBM-BGK equation",
+        "match or not": false
       },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
+      "r14": {
+        "paperID": "e4eecc0873ede7c781a7b57200f23bdef1c8594f",
+        "paperName": "Kinetic theory representation of hydrodynamics: a way beyond the Navier–Stokes equation",
+        "original citing context": "the thermal Maxwell-Boltzmann distribution",
+        "citation citing context": "Gauss-Hermite quadrature",
+        "match or not": false
       },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
+      "r15": {
+        "paperID": "639500e6c3450b4cfee6d6ede57efc8bfa69f1c6",
+        "paperName": "A compressible lattice Boltzmann finite volume model for high subsonic and transonic flows on regular lattices",
+        "original citing context": "A DDF thermal lattice\nBoltzmann model was extended to high-subsonic flows using finite volume approach to improve numerical stability",
+        "citation citing context": "most of\nthe models that simulate thermal compressible flows at high Mach\nnumbers do not use the collide-and-stream method, but rather\nmore robust numerical schemes",
+        "match or not": false
       },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
+      "r16": {
+        "paperID": "395d745ce3c73d29572c0ca106c5c5a940fa6e9f",
+        "paperName": "Lattice Boltzmann method with regularized pre-collision distribution functions",
+        "original citing context": "regularized BGK models",
+        "citation citing context": "the standard secondorder off-equilibrium moment obtained by projection",
+        "match or not": false
       },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
-      },
-      "r1": {
-        "paperID": "",
-        "paperName": "",
-        "original citing context": "",
-        "citation citing context": "",
-        "match or not": true
+      "r17": {
+        "paperID": "a6828aba0b5877d37a2e468c975693fbb2ca9e0a",
+        "paperName": "Increasing stability and accuracy of the lattice Boltzmann scheme: recursivity and regularization",
+        "original citing context": "a recursive regularization procedure to increase stability and accuracy of the lattice Boltzmann\nscheme for athermal compressible flows at moderate Mach numbers",
+        "citation citing context": "original recursive regularized approach, negative",
+        "match or not": false
       }
-    }
   },
   "22": {
     "original": {
