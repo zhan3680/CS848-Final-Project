@@ -709,7 +709,7 @@
       "paperID": "5358df30ed7622870abc459fb521e03f2c91aea3",
       "paperName": "Improved compressible hybrid lattice Boltzmann method on standard lattice for subsonic and supersonic flows"
     },
-    "context match": "6/15",
+    "context match": "12/15",
     "common references": {
       "r1": {
         "paperID": "6d1378c50871928ea9ce5fa88fd13ec6b7253745",
@@ -760,26 +760,26 @@
         "citation citing context": "the BGK collision operator",
         "match or not": true
       },
-      "r8": {
+      "r8???": {
         "paperID": "de1be91902972424493bcfa87cac2a0ce6f261c0",
         "paperName": "Recursive regularization step for high-order lattice Boltzmann methods",
         "original citing context": "binomial theorem of Hermite polynomials",
         "citation citing context": "the recurrence formula",
-        "match or not": false
+        "match or not": true
       },
-      "r9": {
+      "r9???": {
         "paperID": "0dbcfe347064efd098b0059bf7813f7a96da03e6",
         "paperName": "Theory of the lattice Boltzmann method: acoustic and thermal properties in two and three dimensions.",
         "original citing context": "multi-relaxation-time models",
         "citation citing context": "This approach\nhas been widely used to model the hydrodynamics in the Boussinesq approximation where the density variation appears only in a\nforcing term",
-        "match or not": false
+        "match or not": true
       },
-      "r10": {
+      "r10???": {
         "paperID": "503b502af1fe6d86372b89c5a82bc280cc90d091",
         "paperName": "A Lattice-Boltzmann / Finite-Difference Hybrid Simulation of Transonic Flow",
         "original citing context": "background",
         "citation citing context": "benchmarking",
-        "match or not": false
+        "match or not": true
       },
       "r11": {
         "paperID": "20381a1e7de345c7d6d7a05cc59a3d38fcee7fcb",
@@ -795,19 +795,19 @@
         "citation citing context": "analytical solution",
         "match or not": true
       },
-      "r13": {
+      "r13???": {
         "paperID": "e8a82919e5af9af98bf102ca8753233f3bb314e7",
         "paperName": "A Lattice-Boltzmann model for low-Mach reactive flows",
         "original citing context": "the effects of turbulent\nfluctuations have a striking resemblance to those of microscale (thermal) fluctuations in laminar flows",
         "citation citing context": "the collide-and-stream corrected LBM-BGK equation",
-        "match or not": false
+        "match or not": true
       },
-      "r14": {
+      "r14???": {
         "paperID": "e4eecc0873ede7c781a7b57200f23bdef1c8594f",
         "paperName": "Kinetic theory representation of hydrodynamics: a way beyond the Navier–Stokes equation",
         "original citing context": "the thermal Maxwell-Boltzmann distribution",
         "citation citing context": "Gauss-Hermite quadrature",
-        "match or not": false
+        "match or not": true
       },
       "r15": {
         "paperID": "639500e6c3450b4cfee6d6ede57efc8bfa69f1c6",
@@ -816,12 +816,12 @@
         "citation citing context": "most of\nthe models that simulate thermal compressible flows at high Mach\nnumbers do not use the collide-and-stream method, but rather\nmore robust numerical schemes",
         "match or not": false
       },
-      "r16": {
+      "r16???": {
         "paperID": "395d745ce3c73d29572c0ca106c5c5a940fa6e9f",
         "paperName": "Lattice Boltzmann method with regularized pre-collision distribution functions",
         "original citing context": "regularized BGK models",
         "citation citing context": "the standard secondorder off-equilibrium moment obtained by projection",
-        "match or not": false
+        "match or not": true
       },
       "r17": {
         "paperID": "a6828aba0b5877d37a2e468c975693fbb2ca9e0a",

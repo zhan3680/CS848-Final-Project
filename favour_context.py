@@ -63,7 +63,7 @@
             "paperID": "96ce933d2927e5d39cc81c1dc2b60a89254c1411",
             "paperName": "A Survey on Analysis and Design of Model-Based Fuzzy Control Systems",
         },
-        "context match": "3/4",
+        "context match": "3/7",
         "common references": {
             "r1": {
                 "paperID": "d1f58bfbc23c04b127e39040d1f2e4c8f725328d",
@@ -125,7 +125,7 @@
             "paperID": "a8357bca7d2f761822d63f4ab2a9b4215f04d3d6",
             "paperName": "Fuzzy control system designs using redundancy of descriptor representation: a fuzzy Lyapunov function approach",
         },
-        "context match": "6/6",
+        "context match": "6/8",
         "common references": {
             "r1": {
                 "paperID": "23e5f9838c563072551bdec2e7073f470dab9c71",
@@ -194,7 +194,7 @@
             "paperID": "f571725ffc18c6249702ab457b287495302a4e68",
             "paperName": "A survey of generative adversarial networks",
         },
-        "context match": "8/10",
+        "context match": "8/11",
         "common references": {
             "r1": {
                 "paperID": "6364fdaa0a0eccd823a779fcdd489173f938e91a",
@@ -284,7 +284,7 @@
             "paperID": "361caa519ca1784853d71bcc9e9ee76414daea1b",
             "paperName": "A review on Deep Learning approaches for low-dose Computed Tomography restoration",
         },
-        "context match": "7/11",
+        "context match": "7/12",
         "common references": {
             "r1": {
                 "paperID": "6364fdaa0a0eccd823a779fcdd489173f938e91a",

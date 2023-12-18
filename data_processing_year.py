@@ -4,6 +4,8 @@ from os.path import isfile, isdir
 import requests
 from metadata import metadata
 from data_processing import get_data_frame, promotion_effect_score, promotion_effect_dispersion
+import matplotlib
+import matplotlib.pyplot as plt
 
 S2_API_KEY = "K0YJzhxZI15eLBiS7zAUz1n1QgobRC3O4yXkPnIt"
 
@@ -51,7 +53,19 @@ def find_scores_by_publication_year(group_dir):
 
     return sorted(promotionEffectScores.items()), sorted(promotionEffectDispersionScores.items())
 
+def plot(input, ylabel):
+    x_vals = [item[0] for item in input]
+    y_vals = [item[1] for item in input]
+    plt.figure()
+    plt.plot(x_vals, y_vals)
+    plt.yscale('log')
+    plt.xticks(rotation=30, ha='right')
+    plt.xlabel('Date')
+    plt.ylabel(ylabel)
+    plt.show()
+
 
 if __name__ == '__main__':
     promotionEffectScores, promotionEffectDispersionScores = find_scores_by_publication_year("final_data/high_influence")
-    print(promotionEffectDispersionScores)
+    # print(promotionEffectDispersionScores)
+    plot(promotionEffectScores, "promotion effect score")
