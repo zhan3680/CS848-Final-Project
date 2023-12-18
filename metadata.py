@@ -307,4 +307,12 @@ metadata = {
         "num citations": 14,
         "num references": 42,
     },
+     "ad6feba017433e098ceda3ca30af6975ecaa2bd6_before": {
+        "num citations": 125,
+        "num references": 52,
+    },
+    "ad6feba017433e098ceda3ca30af6975ecaa2bd6_after": {
+        "num citations": 14,
+        "num references": 52,
+    },
 }
