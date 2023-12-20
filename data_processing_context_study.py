@@ -9,7 +9,7 @@ def plot(x, y, x_label):
     # plt.yscale('log')
     # plt.xticks(rotation=30, ha='right')
     plt.xlabel(x_label)
-    plt.ylabel('level of matching')
+    plt.ylabel('number of matching citation contexts')
     plt.show()
 
 
@@ -20,4 +20,4 @@ if __name__ == '__main__':
     first_author_hindex = [18, 9, 9, 14, 3, 4, 91, 45, 3, 4, 11, 4, 25, 35, 1]
     num_cited_references = [1, 2, 3, 4, 5, 6, 7, 8, 11, 12, 21, 22, 19, 25, 15]
     two_factor = [first_author_hindex[i]+num_cited_references[i] for i in range(len(first_author_hindex))]
-    plot(num_cited_references, level_of_matching_3, "target")
+    plot(num_cited_references, level_of_matching_3, "number of common references")
