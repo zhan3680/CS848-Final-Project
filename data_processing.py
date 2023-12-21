@@ -6,6 +6,7 @@ from metadata import metadata
 from matplotlib import pyplot as plt
 import scipy.stats as stats
 from collections import deque
+import numpy as np
 
 
 def find_longest_list_index_in_Series(s):
@@ -40,7 +41,7 @@ def get_data_frame(path):
 def sum_power_2(length: int):
     res = 0
     for i in range(length):
-        res += (2 ** i) / (i+1)
+        res += (2 ** i) / (i + 1)
 
     return res
 
@@ -109,18 +110,18 @@ def promotion_effect_dispersion_group(group_dir):
 
 def plot_two_groups(group1, group2, metric):
     labels = [group1.split('/')[-1], group2.split('/')[-1]]
-    if metric == "promotion score":
+    if metric == "promotion effect score":
         data = [promotion_effect_score_group(group1), promotion_effect_score_group(group2)]
-    elif metric == "promotion dispersion":
+    elif metric == "promotion effect dispersion":
         data = [promotion_effect_dispersion_group(group1), promotion_effect_dispersion_group(group2)]
     else:
-        print("metric can only be 'promotion score' or 'promotion dispersion'")
+        print("metric can only be 'promotion effect score' or 'promotion effect dispersion'")
         exit(1)
 
     plt.figure()
     plt.boxplot(data, meanline=True)
     plt.yscale('log')
-    plt.xticks([1,2], labels)
+    plt.xticks([1, 2], labels)
     plt.xlabel("groups")
     plt.ylabel(metric)
     plt.title("{} distribution box plot".format(metric))
@@ -131,12 +132,12 @@ def plot_two_groups(group1, group2, metric):
 
 def statistical_test_two_groups(group1, group2, metric):
     labels = [group1.split('/')[-1], group2.split('/')[-1]]
-    if metric == "promotion score":
+    if metric == "promotion effect score":
         data = [promotion_effect_score_group(group1), promotion_effect_score_group(group2)]
-    elif metric == "promotion dispersion":
+    elif metric == "promotion effect dispersion":
         data = [promotion_effect_dispersion_group(group1), promotion_effect_dispersion_group(group2)]
     else:
-        print("metric can only be 'promotion score' or 'promotion dispersion'")
+        print("metric can only be 'promotion effect score' or 'promotion effect dispersion'")
         exit(1)
 
     statistic, p_value = stats.mannwhitneyu(data[0], data[1])
@@ -148,10 +149,11 @@ def statistical_test_two_groups(group1, group2, metric):
     # Check for significance
     alpha = 0.05
     if p_value < alpha:
-        print("Reject the null hypothesis. There is a significant difference between {} of {} and {} papers.".format(metric, labels[0], labels[1]))
+        print("Reject the null hypothesis. There is a significant difference between {} of {} and {} papers.".format(
+            metric, labels[0], labels[1]))
     else:
-        print("Fail to reject the null hypothesis. No significant difference between {} of {} and {} papers.".format(metric, labels[0], labels[1]))
-
+        print("Fail to reject the null hypothesis. No significant difference between {} of {} and {} papers.".format(
+            metric, labels[0], labels[1]))
 
 
 def citation_pattern(df, total_num_citations):
@@ -163,8 +165,79 @@ def citation_pattern(df, total_num_citations):
         else:
             res[cur_num] += 1
 
-    res[0] = total_num_citations - df.shape[0]
+    # res[0] = total_num_citations - df.shape[0]
     return res
+
+
+def citation_pattern_proportion(citation_pattern):
+    total = 0
+    no_greater_five = 0
+    six_to_ten = 0
+    eleven_to_twenty = 0
+    over_twenty = 0
+    for key in citation_pattern.keys():
+        if key <= 5:
+            no_greater_five += 1
+        elif 6 <= key <= 10:
+            six_to_ten += 1
+        elif 11 <= key <= 20:
+            eleven_to_twenty += 1
+        else:
+            over_twenty += 1
+        total += 1
+
+    if total == 0:
+        return [0.0, 0.0, 0.0, 0.0]
+    else:
+        return [no_greater_five / total, six_to_ten / total, eleven_to_twenty / total, over_twenty / total]
+
+
+def citation_proportion_group(group_dir):
+    no_greater_five = []
+    six_to_ten = []
+    eleven_to_twenty = []
+    over_twenty = []
+    for f in os.listdir(group_dir):
+        paperId = f.split('.')[0]
+        full_relative_path = group_dir + "/" + f
+        if isfile(full_relative_path) and f.endswith(".csv"):
+            df = get_data_frame(full_relative_path)
+            cur_citation_pattern = citation_pattern(df, metadata[paperId]["num citations"])
+            cur_citation_proportion = citation_pattern_proportion(cur_citation_pattern)
+            no_greater_five.append(cur_citation_proportion[0])
+            six_to_ten.append(cur_citation_proportion[1])
+            eleven_to_twenty.append(cur_citation_proportion[2])
+            over_twenty.append(cur_citation_proportion[3])
+
+    return [statistics.mean(no_greater_five), statistics.mean(six_to_ten), statistics.mean(eleven_to_twenty),
+            statistics.mean(over_twenty)]
+
+
+def citation_pattern_proportion_graph_two_groups(group1, group2):
+    groups = [group1.split('/')[-1], group2.split('/')[-1]]
+    group1_pattern = citation_proportion_group(group1)
+    group2_pattern = citation_proportion_group(group2)
+    range_counts = {
+        "1-5": np.array([group1_pattern[0], group2_pattern[0]]),
+        "6-10": np.array([group1_pattern[1], group2_pattern[1]]),
+        "11-15": np.array([group1_pattern[2], group2_pattern[2]]),
+        ">20": np.array([group1_pattern[3], group2_pattern[3]]),
+    }
+    width = 0.3
+
+    fig, ax = plt.subplots()
+    bottom = np.zeros(2)
+    for cur_range, cur_range_count in range_counts.items():
+        p = ax.bar(groups, cur_range_count, width, label=cur_range, bottom=bottom)
+        bottom += cur_range_count
+
+        ax.bar_label(p, label_type='center')
+
+    ax.set_title('citation pattern: {} vs {}'.format(groups[0], groups[1]))
+    ax.legend()
+    plt.show()
+
+
 
 
 def citation_pattern_group(group_dir, file_name):
@@ -174,7 +247,7 @@ def citation_pattern_group(group_dir, file_name):
     for f in os.listdir(group_dir):
         paperId = f.split('.')[0]
         full_relative_path = group_dir + "/" + f
-        if isfile(full_relative_path):
+        if isfile(full_relative_path) and f.endswith(".csv"):
             df = get_data_frame(full_relative_path)
             cur_citation_pattern = citation_pattern(df, metadata[paperId]["num citations"])
             for key in cur_citation_pattern:
@@ -207,7 +280,7 @@ def citation_pattern_group(group_dir, file_name):
     labels_small = [str(k) if k <= 5 else ">5" for k in sorted_keys_small]
     sizes_small = [aggregated_citation_pattern_small[k] for k in sorted_keys_small]
     plt.figure()
-    plt.pie(sizes_small, labels=labels_small, startangle=90, shadow=False, explode=(0.1,)*len(labels_small),
+    plt.pie(sizes_small, labels=labels_small, startangle=90, shadow=False, explode=(0.1,) * len(labels_small),
             autopct='%1.2f%%')
     plt.savefig("{}_small".format(file_name))
 
@@ -270,8 +343,6 @@ def find_target_citations(group_dir, target, limit=5):
                 queue.append(full_relative_path)
 
 
-
-
 if __name__ == '__main__':
     # df = pd.DataFrame({'citationID': [1, 2, 3, 4, 5],
     #                    'citationName': ['A', 'B', 'A', 'B', 'C'],
@@ -279,11 +350,15 @@ if __name__ == '__main__':
     # print(df)
     # print(deduplicate(df).to_string())
 
-    # # df = get_data_frame("final_data/high_influence/1bb490fcd384c4bcda60cd8d1c592b266da5dbd1.csv")
+    # df = get_data_frame("final_data/high_influence/1bb490fcd384c4bcda60cd8d1c592b266da5dbd1.csv")
     # # repetition2(df)
-    # print(df.to_string())
+    # print(sum(citation_pattern_proportion(citation_pattern(df, 945))))
 
     # statistical_test_two_groups("final_data_retracted/before_retraction", "final_data_retracted/after_retraction", "promotion dispersion")
     # print(promotion_effect_score_group("final_data/high_influence"))
 
-    find_target_citations("final_data", 21)
+    # find_target_citations("final_data", 21)
+    # statistical_test_two_groups("final_data/high_influence", "final_data/low_influence", "promotion effect dispersion")
+    # citation_pattern_group("final_data/low_influence", "low_influence")
+
+    citation_pattern_proportion_graph_two_groups("final_data_retracted/before_retraction", "final_data_retracted/after_retraction")
